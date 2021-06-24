@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/bgHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_70"
+        android:background="@color/light_blue"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvItAllStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_15"
+        android:text="It All Starts Here"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvLocation"
+        app:layout_constraintStart_toStartOf="@id/bgHeader"
+        app:layout_constraintTop_toTopOf="@id/bgHeader" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvItAllStart"
+        app:layout_constraintTop_toBottomOf="@id/tvItAllStart"
+        app:layout_constraintBottom_toBottomOf="@id/bgHeader"
+        android:text="Mumbai"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_white"
+        android:layout_marginBottom="@dimen/dp_3"
+        android:textColor="@color/white"
+        android:drawablePadding="@dimen/dp_3"
+        android:textSize="@dimen/sp_12"
+         />
+    <ImageView
+        android:id="@+id/barcodeLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bar_code_scanner"
+        android:layout_marginEnd="@dimen/dp_17"
+        app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+        app:layout_constraintEnd_toEndOf="@+id/bgHeader"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/notificationLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_notifications"
+        android:layout_marginEnd="@dimen/dp_17"
+        app:layout_constraintBottom_toBottomOf="@+id/barcodeLogo"
+        app:layout_constraintEnd_toStartOf="@+id/barcodeLogo"
+        app:layout_constraintTop_toTopOf="@+id/barcodeLogo" />
+
+    <ImageView
+        android:id="@+id/searchLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_search"
+        android:layout_marginEnd="@dimen/dp_17"
+        app:layout_constraintBottom_toBottomOf="@+id/notificationLogo"
+        app:layout_constraintEnd_toStartOf="@+id/notificationLogo"
+        app:layout_constraintTop_toTopOf="@+id/notificationLogo" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bgHeader">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/featuresRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_7"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@id/featuresRecyclerView" />
+
+
+            <ImageView
+                android:id="@+id/ivStreamPremium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/recyclerviewHeader" />
+
+            <TextView
+                android:id="@+id/tvBestOfEntertainment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="The Best of Entertainment"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_20"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/viewPagerTwo" />
+
+            <TextView
+                android:id="@+id/tvStepOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="Step out or stay in, interesting experiences for everyone"
+                android:textSize="@dimen/sp_14"
+                app:layout_constraintStart_toStartOf="@id/tvBestOfEntertainment"
+                app:layout_constraintTop_toBottomOf="@id/tvBestOfEntertainment" />
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewBestOfEntertainment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_200"
+                app:layout_constraintTop_toBottomOf="@id/tvStepOut" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/nestedRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintTop_toBottomOf="@id/recyclerviewBestOfEntertainment" />
+
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerTwo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_200"
+                app:layout_constraintTop_toBottomOf="@id/ivStreamPremium" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
