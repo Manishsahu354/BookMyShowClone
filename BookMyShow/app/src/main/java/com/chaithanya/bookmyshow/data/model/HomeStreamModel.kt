@@ -9,6 +9,6 @@ data class HomeStreamModel(
     val description:String,
     val title:String,
     val date:String,
-    val age:String
+    val age:String?=null
 ) {
 }

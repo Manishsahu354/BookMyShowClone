@@ -84,9 +84,9 @@ class HomeFragment : Fragment() {
         initData()
         setRecyclerView()
 
-        binding.searchLogo.setOnClickListener {
-            view?.let { it1 -> Navigation.findNavController(it1).navigate(R.id.action_homeFragment_to_streamFragment) }
-        }
+//        binding.searchLogo.setOnClickListener {
+//            view?.let { it1 -> Navigation.findNavController(it1).navigate(R.id.action_homeFragment_to_streamFragment) }
+//        }
 
         Glide.with(binding.ivStreamPremium).load(PREMIUM_STREAM_IMAGE).into(binding.ivStreamPremium)
 
@@ -114,7 +114,7 @@ class HomeFragment : Fragment() {
         val homeHeaderAdapter = HomeHeaderAdapter(homeHeaderList)
 
         val circlePagerIndicatorDecoration = CirclePagerIndicatorDecoration()
-        binding.recyclerviewHeader.addItemDecoration(circlePagerIndicatorDecoration)
+       // binding.recyclerviewHeader.addItemDecoration(circlePagerIndicatorDecoration)
         binding.recyclerviewHeader.adapter = homeHeaderAdapter
         val snapHelperForHeaderRecyclerview: SnapHelper = PagerSnapHelper()
         snapHelperForHeaderRecyclerview.attachToRecyclerView(binding.recyclerviewHeader)
@@ -184,7 +184,7 @@ class HomeFragment : Fragment() {
         binding.recyclerviewStream.adapter = homeStreamAdapter
         val snapHelperForStreamRecycler: SnapHelper = PagerSnapHelper()
         val circlePagerIndicatorDecoration2 = CirclePagerIndicatorDecoration()
-        binding.recyclerviewStream.addItemDecoration(circlePagerIndicatorDecoration2)
+       // binding.recyclerviewStream.addItemDecoration(circlePagerIndicatorDecoration2)
         snapHelperForStreamRecycler.attachToRecyclerView(binding.recyclerviewStream)
 
 
