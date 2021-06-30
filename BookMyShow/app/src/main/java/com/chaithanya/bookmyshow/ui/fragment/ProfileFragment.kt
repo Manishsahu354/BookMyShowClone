@@ -1,4 +1,4 @@
-package com.chaithanya.bookmyshow
+package com.chaithanya.bookmyshow.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

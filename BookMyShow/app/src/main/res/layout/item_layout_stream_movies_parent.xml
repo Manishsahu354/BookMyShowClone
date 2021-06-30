@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
-        android:id="@+id/tvEventName"
+        android:id="@+id/tvMovieType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Online Streaming Events"
@@ -17,21 +17,21 @@
         android:textColor="@color/black"/>
 
     <TextView
-        android:id="@+id/tvSeeAll"
+        android:id="@+id/tvSeeAllStream"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/tvEventName"
+        app:layout_constraintTop_toTopOf="@id/tvMovieType"
         android:text="See All"
         android:textSize="@dimen/sp_16"
         android:drawablePadding="@dimen/dp_5"
-        app:layout_constraintBottom_toBottomOf="@id/tvEventName"
+        app:layout_constraintBottom_toBottomOf="@id/tvMovieType"
         android:textColor="@color/pink"
         android:layout_marginEnd="@dimen/dp_10"
         android:drawableEnd="@drawable/ic_baseline_arrow_forward"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/homeEventsChildRecycleView"
+        android:id="@+id/streamMoviesChildRecycleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
@@ -40,7 +40,7 @@
         android:clipToPadding="false"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/tvEventName"
-        app:layout_constraintStart_toStartOf="@id/tvEventName"/>
+        app:layout_constraintTop_toBottomOf="@id/tvMovieType"
+        app:layout_constraintStart_toStartOf="@id/tvMovieType"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

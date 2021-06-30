@@ -1,4 +1,4 @@
-package com.chaithanya.bookmyshow
+package com.chaithanya.bookmyshow.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.chaithanya.bookmyshow.data.model.HomeHeaderModel
+import com.chaithanya.bookmyshow.R
 
 class HomeHeaderAdapter(val homeHeaderList:MutableList<HomeHeaderModel>):RecyclerView.Adapter<HomeHeaderAdapter.HomeHeaderViewHolder>(){
 

@@ -11,7 +11,7 @@
         android:id="@+id/cardView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="@dimen/dp_7"
+        app:cardCornerRadius="@dimen/dp_5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -22,28 +22,13 @@
 
             <ImageView
                 android:id="@+id/ivEventItem"
-                android:layout_width="@dimen/dp_150"
-                android:layout_height="250dp"
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="@dimen/dp_200"
                 android:background="@drawable/bg_rounded_image"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_launcher_background"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/tvTime"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:background="@color/black"
-                android:gravity="center_vertical"
-                android:paddingStart="@dimen/dp_10"
-                android:text="Sat, 3 Jul"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toBottomOf="@id/ivEventItem"
-                app:layout_constraintEnd_toEndOf="@id/ivEventItem"
-                app:layout_constraintStart_toStartOf="@id/ivEventItem" />
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
@@ -58,7 +43,7 @@
         app:layout_constraintStart_toStartOf="@id/cardView"
         app:layout_constraintEnd_toEndOf="@id/cardView"
         android:maxLines="2"
-        android:textSize="@dimen/sp_16"
+        android:textSize="@dimen/sp_13"
         android:textColor="@color/black"
         android:ellipsize="end"
         android:text="Manish Kumar Manish kuma manish kumar"/>
@@ -67,6 +52,7 @@
         android:id="@+id/tvCategory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_12"
         app:layout_constraintStart_toStartOf="@id/tvContentTitle"
         app:layout_constraintTop_toBottomOf="@id/tvContentTitle"
         android:text="Music"/>

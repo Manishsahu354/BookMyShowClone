@@ -1,10 +1,12 @@
-package com.chaithanya.bookmyshow
+package com.chaithanya.bookmyshow.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.chaithanya.bookmyshow.data.model.HomeEventsParentModel
+import com.chaithanya.bookmyshow.R
 
 class HomeEventsParentAdapter(val homeEventsParentList:MutableList<HomeEventsParentModel>):RecyclerView.Adapter<HomeEventsParentAdapter.HomeEventsParentViewHolder>() {
 

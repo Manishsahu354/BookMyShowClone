@@ -7,19 +7,28 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.chaithanya.bookmyshow.HomeFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_streamFragment"
+            app:destination="@id/streamFragment" />
+    </fragment>
     <fragment
         android:id="@+id/buzzFragment"
-        android:name="com.chaithanya.bookmyshow.BuzzFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.BuzzFragment"
         android:label="fragment_buzz"
         tools:layout="@layout/fragment_buzz" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.chaithanya.bookmyshow.ProfileFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/streamFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.StreamFragment"
+        android:label="fragment_stream"
+        tools:layout="@layout/fragment_stream" />
 
 
 </navigation>

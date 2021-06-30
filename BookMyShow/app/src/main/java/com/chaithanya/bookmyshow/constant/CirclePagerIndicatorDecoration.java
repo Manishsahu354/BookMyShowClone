@@ -1,4 +1,4 @@
-package com.chaithanya.bookmyshow;
+package com.chaithanya.bookmyshow.constant;
 
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -7,6 +7,8 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
+
+import javax.inject.Singleton;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
