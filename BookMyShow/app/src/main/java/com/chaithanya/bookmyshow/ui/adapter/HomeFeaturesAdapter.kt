@@ -8,8 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.chaithanya.bookmyshow.data.model.HomeHeaderModel
 import com.chaithanya.bookmyshow.R
+import com.chaithanya.bookmyshow.ui.adapter.itemclicklistener.HomeFeaturesItemClickListener
 
-class HomeFeaturesAdapter(val homeHeaderList:MutableList<HomeHeaderModel>):RecyclerView.Adapter<HomeFeaturesAdapter.HomeFeaturesViewHolder>(){
+class HomeFeaturesAdapter(val homeHeaderList:MutableList<HomeHeaderModel>,val listener:HomeFeaturesItemClickListener):RecyclerView.Adapter<HomeFeaturesAdapter.HomeFeaturesViewHolder>(){
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeFeaturesViewHolder {
@@ -23,6 +24,10 @@ class HomeFeaturesAdapter(val homeHeaderList:MutableList<HomeHeaderModel>):Recyc
         Glide.with(holder.featuresRecyclerImage)
             .load(homeHeaderList[position].imageUrl)
             .into(holder.featuresRecyclerImage)
+
+        holder.featuresRecyclerImage.setOnClickListener {
+            listener.onFeaturesItemClicked(position)
+        }
     }
 
     override fun getItemCount(): Int {

@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
 import androidx.recyclerview.widget.SnapHelper
@@ -53,17 +54,19 @@ import com.chaithanya.bookmyshow.constant.Constants.HOME_STREAM_IMAGE_SIX
 import com.chaithanya.bookmyshow.constant.Constants.HOME_STREAM_IMAGE_THREE
 import com.chaithanya.bookmyshow.constant.Constants.HOME_STREAM_IMAGE_TWO
 import com.chaithanya.bookmyshow.constant.Constants.PREMIUM_STREAM_IMAGE
-import com.chaithanya.bookmyshow.data.model.HomeEventsChildModel
-import com.chaithanya.bookmyshow.data.model.HomeEventsParentModel
-import com.chaithanya.bookmyshow.data.model.HomeHeaderModel
-import com.chaithanya.bookmyshow.data.model.HomeStreamModel
+import com.chaithanya.bookmyshow.data.model.*
 import com.chaithanya.bookmyshow.databinding.FragmentHomeBinding
 import com.chaithanya.bookmyshow.ui.adapter.*
+import com.chaithanya.bookmyshow.ui.adapter.itemclicklistener.HomeFeaturesItemClickListener
+import com.google.firebase.database.*
 import jp.wasabeef.blurry.Blurry
 
 
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
 
+
+    private lateinit var database:DatabaseReference
+    private lateinit var homeEventsParentAdapter:HomeEventsParentAdapter
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
@@ -81,22 +84,77 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
 
-        initData()
+        homeEventsParentAdapter = HomeEventsParentAdapter(homeEventsParentList)
+
+       // initData()
         setRecyclerView()
+        readDataFromFirebase()
 
-//        binding.searchLogo.setOnClickListener {
-//            view?.let { it1 -> Navigation.findNavController(it1).navigate(R.id.action_homeFragment_to_streamFragment) }
-//        }
-
-        Glide.with(binding.ivStreamPremium).load(PREMIUM_STREAM_IMAGE).into(binding.ivStreamPremium)
+        Glide.with(binding.ivStreamPremium).load("PREMIUM_STREAM_IMAGE").into(binding.ivStreamPremium)
 
         return binding.root
+    }
+
+    private fun readDataFromFirebase() {
+        database = FirebaseDatabase.getInstance().getReference("homeNested")
+
+        database.addValueEventListener(object :ValueEventListener{
+            override fun onDataChange(snapshot: DataSnapshot) {
+                if(snapshot.exists()){
+                    for (userSnapshot in snapshot.children){
+
+                      //  val nestedValue  = userSnapshot.getValue(HomeEventsParentModel::class.java)
+
+                          val eventName = userSnapshot.child("eventsName").value.toString()
+
+                         val homeEventsChildList:MutableList<HomeEventsChildModel> = ArrayList<HomeEventsChildModel>()
+
+                        for (childSnapshot in userSnapshot.child("childList").children) {
+
+                            val about =    childSnapshot.child("about").value.toString()
+                            val categoryName =  childSnapshot.child("categoryName").value.toString()
+                            val date =   childSnapshot.child("date").value.toString()
+                            val free =   childSnapshot.child("free").value.toString()
+                            val imageUrl = childSnapshot.child("imageUrl").value.toString()
+                            val interested =  childSnapshot.child("interested").value.toString()
+                            val language =  childSnapshot.child("language").value.toString()
+                            val price =  childSnapshot.child("price").value.toString()
+                            val time =   childSnapshot.child("time").value.toString()
+                            val title =  childSnapshot.child("title").value.toString()
+                            val venue =  childSnapshot.child("venue").value.toString()
+                            val fullImage =  childSnapshot.child("fullImage").value.toString()
+
+
+                            val artistList:MutableList<ArtistModel> = ArrayList<ArtistModel>()
+
+                            for (artistSnapshot in userSnapshot.child("Artist").children) {
+                                artistList.add(artistSnapshot.getValue(ArtistModel::class.java)!!)
+                            }
+
+                            val eventsValues = HomeEventsChildModel(imageUrl,title,time,about,date,free,interested,language,price,venue,categoryName,fullImage,artistList)
+                            homeEventsChildList.add(eventsValues)
+                        }
+                        val homeEventsParentModelTemp = HomeEventsParentModel(eventName,homeEventsChildList)
+                        homeEventsParentList.add(homeEventsParentModelTemp)
+
+                    }
+                    homeEventsParentAdapter.updateData(homeEventsParentList)
+
+                }
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+
+        })
+
+
     }
 
     private fun setRecyclerView() {
 
         // Nested Event Recyclerview
-        val homeEventsParentAdapter = HomeEventsParentAdapter(homeEventsParentList)
         binding.nestedRecycleView.adapter = homeEventsParentAdapter
 
         // Header Recyclerview
@@ -134,7 +192,7 @@ class HomeFragment : Fragment() {
         homeFeaturesList.add(homeFeaturesModel4)
         homeFeaturesList.add(homeFeaturesModel5)
         homeFeaturesList.add(homeFeaturesModel6)
-        val homeFeaturesAdapter = HomeFeaturesAdapter(homeFeaturesList)
+        val homeFeaturesAdapter = HomeFeaturesAdapter(homeFeaturesList,this)
         binding.featuresRecyclerView.adapter = homeFeaturesAdapter
 
 
@@ -352,9 +410,22 @@ class HomeFragment : Fragment() {
 
     }
 
+
+
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    override fun onFeaturesItemClicked(position: Int) {
+        if (position==0){
+
+        }else if (position==1){
+            findNavController().navigate(R.id.action_homeFragment_to_streamActivity)
+        }else if(position==2){
+            findNavController().navigate(R.id.action_homeFragment_to_eventsActivity)
+        }
     }
 
 }

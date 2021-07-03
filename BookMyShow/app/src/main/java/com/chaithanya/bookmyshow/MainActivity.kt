@@ -2,6 +2,7 @@ package com.chaithanya.bookmyshow
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.PopupMenu
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
@@ -22,6 +23,30 @@ class MainActivity : AppCompatActivity() {
         navController = findNavController(R.id.navHostFragment)
 
         NavigationUI.setupWithNavController(binding.bottomNav, navController)
+
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            when (destination.id)
+            {
+                R.id.eventDetailsFragmentFromHome -> hideBottomNav()
+                else -> showBottomNav()
+            }
+        }
+    }
+
+
+    private fun showBottomNav()
+    {
+        binding.bottomNav.visibility = View.VISIBLE
+    }
+
+    private fun hideBottomNav()
+    {
+        binding.bottomNav.visibility = View.GONE
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        binding.bottomNav.visibility = View.GONE
     }
 
 }

@@ -1,8 +1,22 @@
 package com.chaithanya.bookmyshow.data.model
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+import kotlinx.parcelize.RawValue
+
+@Parcelize
 data class HomeEventsChildModel(
-    val imageUrl:String,
-    val title:String,
-    val time:String,
-    val categoryName:String
-)
+    val imageUrl:String? = null,
+    val title:String? = null,
+    val time:String? = null,
+    val about:String? = null,
+    val date:String? = null,
+    val free:String? = null,
+    val interested:String? = null,
+    val language:String? = null,
+    val price:String? = null,
+    val venue:String? = null,
+    val categoryName:String? = null,
+    val fullImage:String? = null,
+    val Artist: @RawValue MutableList<ArtistModel>? = null
+):Parcelable

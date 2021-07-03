@@ -4,11 +4,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.chaithanya.bookmyshow.data.model.HomeEventsParentModel
 import com.chaithanya.bookmyshow.R
+import com.chaithanya.bookmyshow.data.model.HomeEventsChildModel
+import com.chaithanya.bookmyshow.ui.adapter.itemclicklistener.EventsItemClickListener
 
-class HomeEventsParentAdapter(val homeEventsParentList:MutableList<HomeEventsParentModel>):RecyclerView.Adapter<HomeEventsParentAdapter.HomeEventsParentViewHolder>() {
+class HomeEventsParentAdapter(var homeEventsParentList:MutableList<HomeEventsParentModel>)
+    :RecyclerView.Adapter<HomeEventsParentAdapter.HomeEventsParentViewHolder>(){
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeEventsParentViewHolder {
@@ -21,14 +25,23 @@ class HomeEventsParentAdapter(val homeEventsParentList:MutableList<HomeEventsPar
     override fun onBindViewHolder(holder: HomeEventsParentViewHolder, position: Int) {
         holder.tvEventName.text = homeEventsParentList[position].eventsName
 
-        val childList = homeEventsParentList[position].homeEventsChildList
+        holder.tvSeeAll.setOnClickListener {
+            it.findNavController().navigate(R.id.action_homeFragment_to_eventsActivity)
+        }
 
-        val childRecyclerAdapter = HomeEventsChildAdapter(childList)
+        val childList = homeEventsParentList[position].childList
+
+        val childRecyclerAdapter = childList?.let { HomeEventsChildAdapter(it) }
         holder.homeEventsChildRecycleView.adapter =  childRecyclerAdapter
     }
 
     override fun getItemCount(): Int {
         return homeEventsParentList.size
+    }
+
+    fun updateData(newData:MutableList<HomeEventsParentModel>){
+        homeEventsParentList = newData
+        notifyDataSetChanged()
     }
 
     class HomeEventsParentViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
@@ -37,6 +50,7 @@ class HomeEventsParentAdapter(val homeEventsParentList:MutableList<HomeEventsPar
         val tvSeeAll = itemView.findViewById<TextView>(R.id.tvSeeAll)
         val homeEventsChildRecycleView = itemView.findViewById<RecyclerView>(R.id.homeEventsChildRecycleView)
     }
+
 
 
 }

@@ -10,9 +10,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.chaithanya.bookmyshow.R
 import com.chaithanya.bookmyshow.data.model.BuzzArticlesModel
+import com.chaithanya.bookmyshow.ui.adapter.itemclicklistener.BuzzArticleItemClickListener
 import de.hdodenhof.circleimageview.CircleImageView
 
-class BuzzArticleAdapter(private val buzzArticleList:MutableList<BuzzArticlesModel>):RecyclerView.Adapter<BuzzArticleAdapter.BuzzArticleViewHolder>(){
+class BuzzArticleAdapter(private val buzzArticleList:MutableList<BuzzArticlesModel>,private val listener:BuzzArticleItemClickListener):RecyclerView.Adapter<BuzzArticleAdapter.BuzzArticleViewHolder>(){
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BuzzArticleViewHolder {
@@ -38,6 +39,16 @@ class BuzzArticleAdapter(private val buzzArticleList:MutableList<BuzzArticlesMod
             tvBuzzTitle.text = buzzArticleList[position].articleTitle
             tvBuzzTime.text = buzzArticleList[position].time
             likeCountBuzz.text = buzzArticleList[position].likeCount
+
+            imageBuzz.setOnClickListener {
+
+                listener.onArticleItemClicked(buzzArticleList[position])
+            }
+            tvBuzzTitle.setOnClickListener {
+
+                listener.onArticleItemClicked(buzzArticleList[position])
+            }
+
         }
 
 
