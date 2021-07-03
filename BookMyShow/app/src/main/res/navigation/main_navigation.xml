@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_streamActivity"
+            app:destination="@id/streamActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_eventsActivity"
+            app:destination="@id/eventsActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_eventDetailsFragmentFromHome"
+            app:destination="@id/eventDetailsFragmentFromHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/buzzFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.BuzzFragment"
+        android:label="fragment_buzz"
+        tools:layout="@layout/fragment_buzz" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/streamActivity"
+        android:name="com.chaithanya.bookmyshow.ui.activity.StreamActivity"
+        android:label="activity_stream"
+        tools:layout="@layout/activity_stream" />
+    <fragment
+        android:id="@+id/streamFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.StreamFragment"
+        android:label="fragment_stream"
+        tools:layout="@layout/fragment_stream" />
+    <activity
+        android:id="@+id/eventsActivity"
+        android:name="com.chaithanya.bookmyshow.ui.activity.EventsActivity"
+        android:label="activity_events"
+        tools:layout="@layout/activity_events" />
+    <fragment
+        android:id="@+id/eventDetailsFragmentFromHome"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.EventDetailsFragmentFromHome"
+        android:label="EventDetailsFragmentFromHome"
+        tools:layout="@layout/fragment_event_details">
+        <argument
+            android:name="events"
+            app:argType="com.chaithanya.bookmyshow.data.model.HomeEventsChildModel" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/eventsFragment">
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.EventsFragment"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events">
+        <action
+            android:id="@+id/action_eventsFragment_to_eventDetailsFragment2"
+            app:destination="@id/eventDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/eventDetailsFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.EventDetailsFragment"
+        android:label="fragment_event_details"
+        tools:layout="@layout/fragment_event_details"
+         >
+        <argument
+            android:name="eventmodel"
+            app:argType="com.chaithanya.bookmyshow.data.model.HomeEventsChildModel"
+            />
+    </fragment>
+</navigation>
