@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/streamMoviesChildConstraint"
+    android:layout_marginEnd="@dimen/dp_10"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewStream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dp_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageMoviesItem"
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="@dimen/dp_200"
+                android:background="@drawable/bg_rounded_image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tvMovieLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cardViewStream"
+        app:layout_constraintStart_toStartOf="@id/cardViewStream"
+        android:textSize="@dimen/sp_11"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="English"/>
+
+    <TextView
+        android:id="@+id/tvMovieDot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cardViewStream"
+        app:layout_constraintStart_toEndOf="@id/tvMovieLanguage"
+        android:textSize="@dimen/sp_11"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginStart="@dimen/dp_5"
+        android:text="•"/>
+
+    <TextView
+        android:id="@+id/tvMovieAgeRestriction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cardViewStream"
+        app:layout_constraintStart_toEndOf="@id/tvMovieDot"
+        android:textSize="@dimen/sp_11"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginStart="@dimen/dp_5"
+        android:text="13+"/>
+
+    <TextView
+        android:id="@+id/tvMovieCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvMovieLanguage"
+        app:layout_constraintStart_toStartOf="@id/tvMovieLanguage"
+        android:textSize="@dimen/sp_11"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="Action, Adventure"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

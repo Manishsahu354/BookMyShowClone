@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.BuzzFragment">
+
+    <TextView
+        android:id="@+id/bgStreamHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_70"
+        android:background="@color/light_blue"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/imageStreamLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_15"
+        android:text="Buzz"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvLocation"
+        app:layout_constraintStart_toStartOf="@id/bgStreamHeader"
+        app:layout_constraintTop_toTopOf="@id/bgStreamHeader" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/imageStreamLogo"
+        app:layout_constraintTop_toBottomOf="@id/imageStreamLogo"
+        app:layout_constraintBottom_toBottomOf="@id/bgStreamHeader"
+        android:text="Discover what's trending in entertainment"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_white"
+        android:layout_marginBottom="@dimen/dp_3"
+        android:textColor="@color/white"
+        android:drawablePadding="@dimen/dp_3"
+        android:textSize="@dimen/sp_12"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bgStreamHeader">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/statusRecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dp_15"
+                android:clipToPadding="false"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/buzzRecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/statusRecyclerview"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

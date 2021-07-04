@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_blue"
+    android:id="@+id/constraintHomeStream">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardHomeStreamItem"
+        android:layout_width="160dp"
+        android:layout_height="250dp"
+        android:layout_margin="@dimen/dp_15"
+        app:cardCornerRadius="@dimen/dp_10"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageHomeStreamItem"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvHomeStreamTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/cardHomeStreamItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="@dimen/dp_10"
+        app:layout_constraintTop_toTopOf="@id/cardHomeStreamItem"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:text="Four Kids and It "
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/tvHomeStreamTimeAndAge"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvHomeStreamTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHomeStreamTitle"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="1h 30m, 18+"
+        android:textSize="@dimen/sp_15"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvHomeStreamCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvHomeStreamTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHomeStreamTimeAndAge"
+        android:layout_marginTop="@dimen/dp_2"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:text="Adventure, Fantasy"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="@dimen/sp_15"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tvHomeStreamLang"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvHomeStreamTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHomeStreamCategory"
+        android:layout_marginTop="@dimen/dp_2"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:text="English, Hindi, Tamil, Telugu"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="@dimen/sp_15"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/tvHomeStreamDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/tvHomeStreamTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHomeStreamLang"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:text="Kong is on a journye to find his true home but but
+gets in the way of an enraged Godzilla. The epic clash between them is only the beginning of the "
+        android:maxLines="4"
+
+        android:ellipsize="end"
+        android:textSize="@dimen/sp_15"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="@id/cardHomeStreamItem"
+        app:layout_constraintTop_toBottomOf="@id/cardHomeStreamItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="@dimen/dp_15"
+        android:textColor="@color/white"
+        android:text="Buy or Rent"
+        android:background="@color/pink"
+        android:textAllCaps="false"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
