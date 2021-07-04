@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.initialScreens.LanguageSelectionActivity">
+
+    <View
+        android:id="@+id/langHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_125sdp"
+        android:background="@drawable/lang_header_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_regular"
+        android:gravity="center"
+        android:text="@string/explore_in_your_own_language"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/langHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rgLanguage"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/langHeader">
+
+        <RadioButton
+            android:id="@+id/rbEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:buttonTint="@color/bmsRed"
+            android:checked="true"
+            android:onClick="onRBClicked"
+            android:paddingStart="@dimen/dp_10"
+            android:text="@string/english" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <RadioButton
+            android:id="@+id/rbHindi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:buttonTint="@color/bmsRed"
+            android:onClick="onRBClicked"
+            android:paddingStart="@dimen/dp_10"
+            android:text="@string/hindi" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <RadioButton
+            android:id="@+id/rbTamil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:buttonTint="@color/bmsRed"
+            android:onClick="onRBClicked"
+            android:paddingStart="@dimen/dp_10"
+            android:text="@string/tamil" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <RadioButton
+            android:id="@+id/rbTelugu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:buttonTint="@color/bmsRed"
+            android:onClick="onRBClicked"
+            android:paddingStart="@dimen/dp_10"
+            android:text="@string/telugu" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <RadioButton
+            android:id="@+id/rbMalayalam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:buttonTint="@color/bmsRed"
+            android:onClick="onRBClicked"
+            android:paddingStart="@dimen/dp_10"
+            android:text="@string/malayalam" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <RadioButton
+            android:id="@+id/rbMarathi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:buttonTint="@color/bmsRed"
+            android:onClick="onRBClicked"
+            android:paddingStart="@dimen/dp_10"
+            android:text="@string/marathi" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/browser_actions_bg_grey" />
+
+        <RadioButton
+            android:id="@+id/rbKannada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:buttonTint="@color/bmsRed"
+            android:onClick="onRBClicked"
+            android:paddingStart="@dimen/dp_10"
+            android:text="@string/kannada" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@color/browser_actions_bg_grey" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bmsRed"
+        android:textColor="@color/white"
+        android:text="@string/let_s_get_started"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

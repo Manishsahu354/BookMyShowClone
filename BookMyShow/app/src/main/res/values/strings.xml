@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">BookMyShow</string>
-</resources>
+    <string name="english">English</string>
+    <string name="hindi">Hindi (हिंदी)</string>
+    <string name="tamil">Tamil (தமிழ்)</string>
+    <string name="telugu">Telugu (తెలుగు)</string>
+    <string name="malayalam">Malayalam (മലയാളം)</string>
+    <string name="marathi">Marathi (मराठी)</string>
+    <string name="kannada">Kannada (ಕನ್ನಡ)</string>
+    <string name="let_s_get_started">Lets get started</string>
+    <string name="explore_in_your_own_language">Explore In Your Own Language</string>
+    <string name="check">English</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="continue_with_email">Continue with Email</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="or">OR</string>
+    <string name="_91">+91</string>
+    <string name="continue_with_mobile_number">Continue with mobile number</string>
+    <string name="terms_amp_conditions"><u>Terms &amp; Conditions</u> </string>
+    <string name="i_agree_to_the">I agree to the </string>
+    <string name="and">and </string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="skip">SKIP</string>
+    <string name="enter_the_otp">Enter the OTP</string>
+    <string name="sign_in">Sign In</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="pick_a_location">Pick a location</string>
+    <string name="search_for_your_city">Search for your city</string>
+    <string name="detect_my_location">Detect my location</string>
+</resources><!--    <string name="default_web_client_id">453481737383-ce9rdc07vejnvtqsv9kaesk97ml3ntbu.apps.googleusercontent.com</string>-->
