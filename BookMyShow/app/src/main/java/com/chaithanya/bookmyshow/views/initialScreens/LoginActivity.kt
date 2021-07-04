@@ -9,6 +9,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.chaithanya.bookmyshow.MainActivity
 import com.chaithanya.bookmyshow.R
 import com.chaithanya.bookmyshow.databinding.ActivityLoginBinding
 import com.chaithanya.bookmyshow.helper.*
@@ -179,7 +180,7 @@ class LoginActivity : AppCompatActivity() {
                     val user = auth.currentUser
                     updatePreference(account)
                     saveUser(account)
-                    startActivity(Intent(this, LogoutActivity::class.java))
+                    startActivity(Intent(this, MainActivity::class.java))
                 } else {
                     // If sign in fails, display a message to the user.
                     Toast.makeText(this, "Failed", Toast.LENGTH_SHORT).show()
@@ -189,6 +190,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun updatePreference(account: GoogleSignInAccount) {
+        PreferenceHelper.writeBooleanToPreference(USER_LOGGED_IN, true)
         PreferenceHelper.writeBooleanToPreference(KEY_USER_LOGGED_IN, true)
         PreferenceHelper.writeBooleanToPreference(KEY_LOGIN_WITH_OAUTH, true)
         PreferenceHelper.writeStringToPreference(KEY_USER_GOOGLE_ID, account.id)
@@ -309,7 +311,7 @@ class LoginActivity : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
                     PreferenceHelper.writeBooleanToPreference(KEY_USER_LOGGED_IN, true)
-                    val i = Intent(this, LogoutActivity::class.java)
+                    val i = Intent(this, MainActivity::class.java)
                     startActivity(i)
                 } else {
                     Toast.makeText(this, "Failed", Toast.LENGTH_LONG).show()

@@ -6,10 +6,12 @@ import android.view.View
 import android.widget.RadioButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.chaithanya.bookmyshow.MainActivity
 import com.chaithanya.bookmyshow.R
 import com.chaithanya.bookmyshow.databinding.ActivityLanguageSelectionBinding
 import com.chaithanya.bookmyshow.helper.KEY_USER_LOGGED_IN
 import com.chaithanya.bookmyshow.helper.PreferenceHelper
+import com.chaithanya.bookmyshow.helper.USER_LOGGED_IN
 import java.util.*
 
 class LanguageSelectionActivity : AppCompatActivity() {
@@ -26,8 +28,8 @@ class LanguageSelectionActivity : AppCompatActivity() {
         PreferenceHelper.getSharedPreferences(this)
 
         binding.btnGetStarted.setOnClickListener {
-            if (PreferenceHelper.getBooleanFromPreference(KEY_USER_LOGGED_IN)) {
-                val intent = Intent(this, LocationSelectionActivity::class.java)
+            if (PreferenceHelper.getLoginBooleanFromPreference(USER_LOGGED_IN)) {
+                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
             } else {
                 val intent = Intent(this, LoginActivity::class.java)

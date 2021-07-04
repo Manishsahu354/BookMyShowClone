@@ -16,7 +16,6 @@
         <activity android:name=".views.initialScreens.LoginActivity" />
         <activity android:name=".ui.activity.EventsActivity"></activity>
         <activity android:name=".ui.activity.StreamActivity" />
-        <activity android:name=".MainActivity"/>
         <activity android:name=".views.initialScreens.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
