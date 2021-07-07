@@ -119,5 +119,6 @@ dependencies {
     //blur Image
     implementation 'jp.wasabeef:blurry:4.0.0'
 
+    //youtube
     compile files('libs/YouTubeAndroidPlayerApi.jar')
 }
