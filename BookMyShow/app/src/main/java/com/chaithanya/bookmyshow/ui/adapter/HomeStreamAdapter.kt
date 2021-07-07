@@ -25,14 +25,14 @@ class HomeStreamAdapter(val homeStreamList:MutableList<HomeStreamModel>):Recycle
 
         holder.apply {
             Glide.with(imageHomeStreamItem)
-                .load(homeStreamList[position].imageUrl)
+                .load(homeStreamList[position].thumbImage)
                 .into(imageHomeStreamItem)
 
             tvHomeStreamTitle.text = homeStreamList[position].title
             tvHomeStreamTimeAndAge.text = homeStreamList[position].time
-            tvHomeStreamCategory.text = homeStreamList[position].category.toString()
+            tvHomeStreamCategory.text = homeStreamList[position].categoryName.toString()
             tvHomeStreamLang.text = homeStreamList[position].language
-            tvHomeStreamDescription.text = homeStreamList[position].description
+            tvHomeStreamDescription.text = homeStreamList[position].about
 
 //            btnBuyOrRent.setOnClickListener {
 //

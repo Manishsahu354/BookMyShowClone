@@ -97,12 +97,5 @@ dependencies {
     // SwipeToRefresh
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
 
-    //SmoothBottomBar
-    implementation 'com.github.ibrahimsn98:SmoothBottomBar:1.7.8'
-
-    implementation 'com.ismaeldivita.chipnavigation:chip-navigation-bar:1.3.4'
-
-    //blur Image
-    implementation 'jp.wasabeef:blurry:4.0.0'
-
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
 }

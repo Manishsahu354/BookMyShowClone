@@ -6,12 +6,14 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.chaithanya.bookmyshow.data.model.HomeStreamModel
 import com.chaithanya.bookmyshow.R
+import com.chaithanya.bookmyshow.ui.fragment.StreamFragmentDirections
 
-class StreamHandpickedAdapter(private val homeStreamList:MutableList<HomeStreamModel>):RecyclerView.Adapter<StreamHandpickedAdapter.StreamHandpickedViewHolder>(){
+class StreamHandpickedAdapter(private var homeStreamList:MutableList<HomeStreamModel>):RecyclerView.Adapter<StreamHandpickedAdapter.StreamHandpickedViewHolder>(){
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StreamHandpickedViewHolder {
@@ -25,15 +27,18 @@ class StreamHandpickedAdapter(private val homeStreamList:MutableList<HomeStreamM
 
         holder.apply {
             Glide.with(imageHomeStreamItem)
-                .load(homeStreamList[position].imageUrl)
+                .load(homeStreamList[position].thumbImage)
                 .into(imageHomeStreamItem)
 
             tvStreamHandpickedTitle.text = homeStreamList[position].title
             tvStreamLanguage.text = homeStreamList[position].language
-            tvStreamCategory.text = homeStreamList[position].category
+            tvStreamCategory.text = homeStreamList[position].categoryName
 
             constraintStreamHandpicked.setOnClickListener {
 
+                it.findNavController().navigate(
+                    StreamFragmentDirections
+                    .actionStreamFragment2ToStreamMovieFragment(homeStreamList[position]))
             }
         }
 
@@ -41,6 +46,11 @@ class StreamHandpickedAdapter(private val homeStreamList:MutableList<HomeStreamM
 
     override fun getItemCount(): Int {
         return homeStreamList.size
+    }
+
+    fun updateData(newData:MutableList<HomeStreamModel>){
+        homeStreamList = newData
+        notifyDataSetChanged()
     }
 
     class StreamHandpickedViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){

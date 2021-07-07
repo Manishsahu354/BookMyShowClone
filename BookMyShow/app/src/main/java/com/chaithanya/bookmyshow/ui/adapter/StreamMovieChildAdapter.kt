@@ -6,13 +6,18 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.chaithanya.bookmyshow.data.model.HomeEventsChildModel
 import com.chaithanya.bookmyshow.R
 import com.chaithanya.bookmyshow.data.model.HomeStreamModel
+import com.chaithanya.bookmyshow.ui.adapter.itemclicklistener.StreamChildItemClickListener
+import com.chaithanya.bookmyshow.ui.fragment.StreamFragment
+import com.chaithanya.bookmyshow.ui.fragment.StreamFragmentDirections
 
-class StreamMovieChildAdapter(val homeStreamList:MutableList<HomeStreamModel>):RecyclerView.Adapter<StreamMovieChildAdapter.StreamMovieChildViewHolder>() {
+class StreamMovieChildAdapter(
+    private val homeStreamList:MutableList<HomeStreamModel>):RecyclerView.Adapter<StreamMovieChildAdapter.StreamMovieChildViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StreamMovieChildViewHolder {
@@ -25,10 +30,15 @@ class StreamMovieChildAdapter(val homeStreamList:MutableList<HomeStreamModel>):R
     override fun onBindViewHolder(holder: StreamMovieChildViewHolder, position: Int) {
 
         holder.apply {
-            Glide.with(imageMoviesItem).load(homeStreamList[position].imageUrl).into(imageMoviesItem)
+            Glide.with(imageMoviesItem).load(homeStreamList[position].thumbImage).into(imageMoviesItem)
             tvMovieLanguage.text = homeStreamList[position].language
             tvMovieAgeRestriction.text = homeStreamList[position].age
-            tvMovieCategory.text = homeStreamList[position].category
+            tvMovieCategory.text = homeStreamList[position].categoryName
+
+            streamMoviesChildConstraint.setOnClickListener {
+                it.findNavController().navigate(StreamFragmentDirections
+                    .actionStreamFragment2ToStreamMovieFragment(homeStreamList[position]))
+            }
         }
     }
 

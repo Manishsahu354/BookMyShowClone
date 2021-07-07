@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.Observer
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
@@ -58,14 +60,15 @@ import com.chaithanya.bookmyshow.data.model.*
 import com.chaithanya.bookmyshow.databinding.FragmentHomeBinding
 import com.chaithanya.bookmyshow.ui.adapter.*
 import com.chaithanya.bookmyshow.ui.adapter.itemclicklistener.HomeFeaturesItemClickListener
+import com.chaithanya.bookmyshow.viewmodel.HomeViewModel
 import com.google.firebase.database.*
-import jp.wasabeef.blurry.Blurry
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
 
-
-    private lateinit var database:DatabaseReference
+    private val viewModel by viewModels<HomeViewModel>()
+    private val database = FirebaseDatabase.getInstance().getReference("homeNested")
     private lateinit var homeEventsParentAdapter:HomeEventsParentAdapter
 
     private var _binding: FragmentHomeBinding? = null
@@ -90,24 +93,23 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
         setRecyclerView()
         readDataFromFirebase()
 
-        Glide.with(binding.ivStreamPremium).load("PREMIUM_STREAM_IMAGE").into(binding.ivStreamPremium)
+        Glide.with(binding.ivStreamPremium).load(PREMIUM_STREAM_IMAGE).into(binding.ivStreamPremium)
 
         return binding.root
     }
 
     private fun readDataFromFirebase() {
-        database = FirebaseDatabase.getInstance().getReference("homeNested")
 
-        database.addValueEventListener(object :ValueEventListener{
+        database.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 if(snapshot.exists()){
                     for (userSnapshot in snapshot.children){
 
-                      //  val nestedValue  = userSnapshot.getValue(HomeEventsParentModel::class.java)
+                        //  val nestedValue  = userSnapshot.getValue(HomeEventsParentModel::class.java)
 
-                          val eventName = userSnapshot.child("eventsName").value.toString()
+                        val eventName = userSnapshot.child("eventsName").value.toString()
 
-                         val homeEventsChildList:MutableList<HomeEventsChildModel> = ArrayList<HomeEventsChildModel>()
+                        val homeEventsChildList:MutableList<HomeEventsChildModel> = ArrayList<HomeEventsChildModel>()
 
                         for (childSnapshot in userSnapshot.child("childList").children) {
 
@@ -138,17 +140,22 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
                         homeEventsParentList.add(homeEventsParentModelTemp)
 
                     }
-                    homeEventsParentAdapter.updateData(homeEventsParentList)
 
+                    homeEventsParentAdapter.updateData(homeEventsParentList)
+                    //homeEventsParentList.clear()
                 }
             }
 
             override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
+
             }
 
         })
+        homeEventsParentAdapter.updateData(homeEventsParentList)
 
+//        viewModel.getEventList().observe(viewLifecycleOwner, Observer {streamList->
+//            homeEventsParentAdapter.updateData(streamList)
+//        })
 
     }
 
@@ -172,7 +179,7 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
         val homeHeaderAdapter = HomeHeaderAdapter(homeHeaderList)
 
         val circlePagerIndicatorDecoration = CirclePagerIndicatorDecoration()
-       // binding.recyclerviewHeader.addItemDecoration(circlePagerIndicatorDecoration)
+       binding.recyclerviewHeader.addItemDecoration(circlePagerIndicatorDecoration)
         binding.recyclerviewHeader.adapter = homeHeaderAdapter
         val snapHelperForHeaderRecyclerview: SnapHelper = PagerSnapHelper()
         snapHelperForHeaderRecyclerview.attachToRecyclerView(binding.recyclerviewHeader)
@@ -200,33 +207,40 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
 
 
         val homeStreamModel1 = HomeStreamModel(
-            HOME_STREAM_IMAGE_ONE,100,
-            "Thriller","English","1h 52m",
-            "The true story of the cold war spy","The Courier (2021)","25 Jun 2019")
+            thumbImage = HOME_STREAM_IMAGE_ONE,price = "100",categoryName = "Thriller",
+            language = "English",time = "1h 52m",
+            about = "The true story of the cold war spy",
+            title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel2 = HomeStreamModel(
-            HOME_STREAM_IMAGE_TWO,100,
-            "Thriller","English","1h 52m",
-            "The true story of the cold war spy","The Courier (2021)","25 Jun 2019")
+            thumbImage = HOME_STREAM_IMAGE_ONE,price = "100",categoryName = "Thriller",
+            language = "English",time = "1h 52m",
+            about = "The true story of the cold war spy",
+            title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel3 = HomeStreamModel(
-            HOME_STREAM_IMAGE_THREE,100,
-            "Thriller","English","1h 52m",
-            "The true story of the cold war spy","The Courier (2021)","25 Jun 2019")
+            thumbImage = HOME_STREAM_IMAGE_TWO,price = "100",categoryName = "Thriller",
+            language = "English",time = "1h 52m",
+            about = "The true story of the cold war spy",
+            title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel4 = HomeStreamModel(
-            HOME_STREAM_IMAGE_FOUR,100,
-            "Thriller","English","1h 52m",
-            "The true story of the cold war spy","The Courier (2021)","25 Jun 2019")
+            thumbImage = HOME_STREAM_IMAGE_THREE,price = "100",categoryName = "Thriller",
+            language = "English",time = "1h 52m",
+            about = "The true story of the cold war spy",
+            title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel5 = HomeStreamModel(
-            HOME_STREAM_IMAGE_FIVE,100,
-            "Thriller","English","1h 52m",
-            "The true story of the cold war spy","The Courier (2021)","25 Jun 2019")
+            thumbImage = HOME_STREAM_IMAGE_FOUR,price = "100",categoryName = "Thriller",
+            language = "English",time = "1h 52m",
+            about = "The true story of the cold war spy",
+            title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel6 = HomeStreamModel(
-            HOME_STREAM_IMAGE_SIX,100,
-            "Thriller","English","1h 52m",
-            "The true story of the cold war spy","The Courier (2021)","25 Jun 2019")
+            thumbImage = HOME_STREAM_IMAGE_FIVE,price = "100",categoryName = "Thriller",
+            language = "English",time = "1h 52m",
+            about = "The true story of the cold war spy",
+            title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel7 = HomeStreamModel(
-            HOME_STREAM_IMAGE_SEVEN,100,
-            "Thriller","English","1h 52m",
-            "The true story of the cold war spy","The Courier (2021)","25 Jun 2019")
+            thumbImage = HOME_STREAM_IMAGE_SIX,price = "100",categoryName = "Thriller",
+            language = "English",time = "1h 52m",
+            about = "The true story of the cold war spy",
+            title = "The Courier (2021)",date = "25 Jun 2019")
 
 
 
@@ -242,7 +256,7 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
         binding.recyclerviewStream.adapter = homeStreamAdapter
         val snapHelperForStreamRecycler: SnapHelper = PagerSnapHelper()
         val circlePagerIndicatorDecoration2 = CirclePagerIndicatorDecoration()
-       // binding.recyclerviewStream.addItemDecoration(circlePagerIndicatorDecoration2)
+        binding.recyclerviewStream.addItemDecoration(circlePagerIndicatorDecoration2)
         snapHelperForStreamRecycler.attachToRecyclerView(binding.recyclerviewStream)
 
 
@@ -413,9 +427,15 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
 
 
 
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+        homeEventsParentList.clear()
+        homeHeaderList.clear()
+        homeFeaturesList.clear()
+        homeStreamList.clear()
+        homeBestOfList.clear()
     }
 
     override fun onFeaturesItemClicked(position: Int) {

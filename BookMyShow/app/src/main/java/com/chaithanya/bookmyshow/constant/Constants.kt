@@ -2,6 +2,9 @@ package com.chaithanya.bookmyshow.constant
 
 object Constants {
 
+    //Youtube Player ApiKey
+    const val YOUTUBE_API_KEY = "AIzaSyA6O9BhscZ2eKsJV-6ldUbibipcJ3rshgs"
+
     //Stream Logo
     const val STREAM_TEXT_LOGO = "https://in.bmscdn.com/discovery-catalog/icons/stream-logo-202101050337.png"
 

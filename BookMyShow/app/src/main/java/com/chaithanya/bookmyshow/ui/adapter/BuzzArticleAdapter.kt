@@ -13,7 +13,7 @@ import com.chaithanya.bookmyshow.data.model.BuzzArticlesModel
 import com.chaithanya.bookmyshow.ui.adapter.itemclicklistener.BuzzArticleItemClickListener
 import de.hdodenhof.circleimageview.CircleImageView
 
-class BuzzArticleAdapter(private val buzzArticleList:MutableList<BuzzArticlesModel>,private val listener:BuzzArticleItemClickListener):RecyclerView.Adapter<BuzzArticleAdapter.BuzzArticleViewHolder>(){
+class BuzzArticleAdapter(private var buzzArticleList:MutableList<BuzzArticlesModel>, private val listener:BuzzArticleItemClickListener):RecyclerView.Adapter<BuzzArticleAdapter.BuzzArticleViewHolder>(){
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BuzzArticleViewHolder {
@@ -58,8 +58,12 @@ class BuzzArticleAdapter(private val buzzArticleList:MutableList<BuzzArticlesMod
         return buzzArticleList.size
     }
 
+    fun updateData(newData:MutableList<BuzzArticlesModel>){
+        buzzArticleList = newData
+        notifyDataSetChanged()
+    }
+
     class BuzzArticleViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        val buzzArticlesConstraint: ConstraintLayout = itemView.findViewById(R.id.buzzArticlesConstraint)
         val imageBuzz: ImageView = itemView.findViewById(R.id.imageBuzz)
         val tvBuzzTopic: TextView = itemView.findViewById(R.id.tvBuzzTopic)
         val tvBuzzTitle: TextView = itemView.findViewById(R.id.tvBuzzTitle)

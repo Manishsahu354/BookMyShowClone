@@ -24,7 +24,11 @@
         android:id="@+id/buzzFragment"
         android:name="com.chaithanya.bookmyshow.ui.fragment.BuzzFragment"
         android:label="fragment_buzz"
-        tools:layout="@layout/fragment_buzz" />
+        tools:layout="@layout/fragment_buzz" >
+        <action
+            android:id="@+id/action_buzzFragment_to_buzzDetailsFragment"
+            app:destination="@id/buzzDetailsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.chaithanya.bookmyshow.ui.fragment.ProfileFragment"
@@ -53,6 +57,15 @@
         <argument
             android:name="events"
             app:argType="com.chaithanya.bookmyshow.data.model.HomeEventsChildModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/buzzDetailsFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.BuzzDetailsFragment"
+        android:label="fragment_buzz_details"
+        tools:layout="@layout/fragment_buzz_details" >
+        <argument
+            android:name="buzzWebUrl"
+            app:argType="string" />
     </fragment>
 
 

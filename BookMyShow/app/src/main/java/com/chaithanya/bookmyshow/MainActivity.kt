@@ -10,7 +10,9 @@ import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.chaithanya.bookmyshow.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding:ActivityMainBinding
@@ -28,6 +30,7 @@ class MainActivity : AppCompatActivity() {
             when (destination.id)
             {
                 R.id.eventDetailsFragmentFromHome -> hideBottomNav()
+                R.id.buzzDetailsFragment -> hideBottomNav()
                 else -> showBottomNav()
             }
         }

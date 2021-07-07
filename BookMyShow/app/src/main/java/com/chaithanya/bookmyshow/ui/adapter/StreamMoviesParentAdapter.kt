@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.chaithanya.bookmyshow.R
 import com.chaithanya.bookmyshow.data.model.StreamMoviesParentModel
 
-class StreamMoviesParentAdapter(private val streamMoviesParentList:MutableList<StreamMoviesParentModel>):RecyclerView.Adapter<StreamMoviesParentAdapter.StreamMoviesParentViewHolder>() {
+class StreamMoviesParentAdapter(private var streamMoviesParentList:MutableList<StreamMoviesParentModel>):RecyclerView.Adapter<StreamMoviesParentAdapter.StreamMoviesParentViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StreamMoviesParentViewHolder {
@@ -22,12 +22,17 @@ class StreamMoviesParentAdapter(private val streamMoviesParentList:MutableList<S
         holder.tvMovieType.text = streamMoviesParentList[position].movieType
         val childList = streamMoviesParentList[position].streamMoviesChildList
 
-        val childRecyclerAdapter = StreamMovieChildAdapter(childList)
+        val childRecyclerAdapter = childList?.let { StreamMovieChildAdapter(it) }
         holder.streamMoviesChildRecycleView.adapter =  childRecyclerAdapter
     }
 
     override fun getItemCount(): Int {
         return streamMoviesParentList.size
+    }
+
+    fun updateData(newData:MutableList<StreamMoviesParentModel>){
+        streamMoviesParentList = newData
+        notifyDataSetChanged()
     }
 
     class StreamMoviesParentViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){

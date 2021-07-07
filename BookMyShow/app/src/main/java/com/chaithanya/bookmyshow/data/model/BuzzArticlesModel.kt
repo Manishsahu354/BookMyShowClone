@@ -1,15 +1,12 @@
 package com.chaithanya.bookmyshow.data.model
 
 data class BuzzArticlesModel(
-    val imageUrl:String,
-    val articleTitle:String,
-    val category:String,
-    val writer:String,
-    val profileImageUrl:String,
-    val likeCount:String,
-    val time:String,
-    val liked:Boolean,
-    val date:String,
-    val readingTime:String
-) {
-}
+    val articleTitle:String? = null,
+    val category:String? = null,
+    val imageUrl:String? = null,
+    val likeCount:String? = null,
+    val liked:String? = null,
+    val profileImageUrl:String? = null,
+    val time:String? = null,
+    val webUrl:String? = null
+)
