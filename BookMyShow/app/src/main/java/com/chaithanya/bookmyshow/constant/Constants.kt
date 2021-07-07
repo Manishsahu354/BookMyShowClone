@@ -8,6 +8,9 @@ object Constants {
     //Stream Logo
     const val STREAM_TEXT_LOGO = "https://in.bmscdn.com/discovery-catalog/icons/stream-logo-202101050337.png"
 
+    //Tailgate Image in Stream Fragment in
+    const val TAILGATE_IMAGE = "https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-720:w-600/tailgate-banner-collection-202107021117.jpg"
+
     //Features Buttons Recyclerview Image
 
     const val HOME_FEATURE_IMAGE_ONE ="https://in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:w-300/movies-v3-collection-202101080832.png"

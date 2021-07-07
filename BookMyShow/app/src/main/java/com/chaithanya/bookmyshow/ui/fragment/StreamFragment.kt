@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.Glide
 import com.chaithanya.bookmyshow.R
+import com.chaithanya.bookmyshow.constant.Constants.TAILGATE_IMAGE
 import com.chaithanya.bookmyshow.data.model.*
 import com.chaithanya.bookmyshow.databinding.FragmentStreamBinding
 import com.chaithanya.bookmyshow.ui.adapter.HomeEventsParentAdapter
@@ -38,6 +40,8 @@ class StreamFragment : Fragment() {
         binding.imageBack.setOnClickListener {
            requireActivity().finish()
         }
+        Glide.with(requireContext()).load(TAILGATE_IMAGE).into(binding.tailgateImage)
+        binding.tailgateImage
 
         setRecyclerview()
         readDataFromFirebase()

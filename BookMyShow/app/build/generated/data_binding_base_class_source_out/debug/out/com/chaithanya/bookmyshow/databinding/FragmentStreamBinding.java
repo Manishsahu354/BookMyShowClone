@@ -48,6 +48,9 @@ public final class FragmentStreamBinding implements ViewBinding {
   public final RecyclerView recyclerviewStreamHandpicked;
 
   @NonNull
+  public final ImageView tailgateImage;
+
+  @NonNull
   public final TextView tvHandpickedForYou;
 
   private FragmentStreamBinding(@NonNull ConstraintLayout rootView,
@@ -55,7 +58,8 @@ public final class FragmentStreamBinding implements ViewBinding {
       @NonNull TextView bgStreamHeader, @NonNull ImageView imageBack,
       @NonNull ImageView imageSearch, @NonNull ImageView imageStreamLogo,
       @NonNull ImageView imageVideoPlayer, @NonNull RecyclerView nestedRecycleViewStreamMovies,
-      @NonNull RecyclerView recyclerviewStreamHandpicked, @NonNull TextView tvHandpickedForYou) {
+      @NonNull RecyclerView recyclerviewStreamHandpicked, @NonNull ImageView tailgateImage,
+      @NonNull TextView tvHandpickedForYou) {
     this.rootView = rootView;
     this.ImageShareLogo = ImageShareLogo;
     this.bgStreamHandpicked = bgStreamHandpicked;
@@ -66,6 +70,7 @@ public final class FragmentStreamBinding implements ViewBinding {
     this.imageVideoPlayer = imageVideoPlayer;
     this.nestedRecycleViewStreamMovies = nestedRecycleViewStreamMovies;
     this.recyclerviewStreamHandpicked = recyclerviewStreamHandpicked;
+    this.tailgateImage = tailgateImage;
     this.tvHandpickedForYou = tvHandpickedForYou;
   }
 
@@ -150,6 +155,12 @@ public final class FragmentStreamBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tailgateImage;
+      ImageView tailgateImage = rootView.findViewById(id);
+      if (tailgateImage == null) {
+        break missingId;
+      }
+
       id = R.id.tvHandpickedForYou;
       TextView tvHandpickedForYou = rootView.findViewById(id);
       if (tvHandpickedForYou == null) {
@@ -159,7 +170,7 @@ public final class FragmentStreamBinding implements ViewBinding {
       return new FragmentStreamBinding((ConstraintLayout) rootView, ImageShareLogo,
           bgStreamHandpicked, bgStreamHeader, imageBack, imageSearch, imageStreamLogo,
           imageVideoPlayer, nestedRecycleViewStreamMovies, recyclerviewStreamHandpicked,
-          tvHandpickedForYou);
+          tailgateImage, tvHandpickedForYou);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
