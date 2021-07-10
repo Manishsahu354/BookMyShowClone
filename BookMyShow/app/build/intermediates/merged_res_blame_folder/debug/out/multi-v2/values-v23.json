@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "F:\\Projects\\BMSClone\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\manishkumar\\.gradle\\caches\\transforms-2\\files-2.1\\85362e86dcfa1d4431df8366a86cca45\\appcompat-1.3.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Chaithanya\\.gradle\\caches\\transforms-2\\files-2.1\\85362e86dcfa1d4431df8366a86cca45\\appcompat-1.3.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\manishkumar\\.gradle\\caches\\transforms-2\\files-2.1\\d8bcbb6bc57156cf2ea2d7f3e8164b2f\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Chaithanya\\.gradle\\caches\\transforms-2\\files-2.1\\d8bcbb6bc57156cf2ea2d7f3e8164b2f\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\manishkumar\\.gradle\\caches\\transforms-2\\files-2.1\\df8a9436ff53becd916476518b2c5a54\\material-1.4.0-rc01\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\Chaithanya\\.gradle\\caches\\transforms-2\\files-2.1\\df8a9436ff53becd916476518b2c5a54\\material-1.4.0-rc01\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

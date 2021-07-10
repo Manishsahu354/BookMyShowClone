@@ -7,7 +7,7 @@ class PreferenceHelper {
 
     companion object{
         private var sharedPreferences: SharedPreferences? = null
-        private const val PREF_NAME = "bms"
+        private val PREF_NAME = "users"
 
         fun getSharedPreferences(context: Context): SharedPreferences? {
             if (sharedPreferences == null) {

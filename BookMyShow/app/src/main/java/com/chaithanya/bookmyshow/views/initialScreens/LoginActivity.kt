@@ -48,9 +48,9 @@ class LoginActivity : AppCompatActivity() {
 
         val user = auth.currentUser
 
-        if (user != null) {
-            startActivity(Intent(this, LogoutActivity::class.java))
-        }
+//        if (user != null) {
+//            startActivity(Intent(this, LogoutActivity::class.java))
+//        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -224,7 +224,7 @@ class LoginActivity : AppCompatActivity() {
                             Log.d("TAG", "onComplete: " + task.exception!!.message)
                         }
                     }
-                    Toast.makeText(this@LoginActivity, "Welcomeback", Toast.LENGTH_SHORT)
+                    Toast.makeText(this@LoginActivity, "Welcome back", Toast.LENGTH_SHORT)
                         .show()
                     return
                 }

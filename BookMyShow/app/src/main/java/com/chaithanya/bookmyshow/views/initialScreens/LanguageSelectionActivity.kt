@@ -12,11 +12,14 @@ import com.chaithanya.bookmyshow.databinding.ActivityLanguageSelectionBinding
 import com.chaithanya.bookmyshow.helper.KEY_USER_LOGGED_IN
 import com.chaithanya.bookmyshow.helper.PreferenceHelper
 import com.chaithanya.bookmyshow.helper.USER_LOGGED_IN
+import com.google.firebase.auth.FirebaseAuth
 import java.util.*
 
 class LanguageSelectionActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityLanguageSelectionBinding
+
+    lateinit var auth: FirebaseAuth
 
     lateinit var locale: Locale
 
@@ -24,6 +27,14 @@ class LanguageSelectionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLanguageSelectionBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        auth = FirebaseAuth.getInstance()
+
+        val user = auth.currentUser
+
+        if (user != null) {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
 
         PreferenceHelper.getSharedPreferences(this)
 
