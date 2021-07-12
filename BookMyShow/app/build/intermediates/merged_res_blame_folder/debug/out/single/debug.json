@@ -12,6 +12,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_add_person.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_minus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_minus_grey.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -32,6 +36,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_minus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_minus.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_buzz_article.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_buzz_article.xml"
     },
@@ -40,12 +48,12 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\anim\\slide_in_left.xml"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_location_selection.xml.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_location_selection.xml"
-    },
-    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_location_selection.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_location_selection.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_chen.png.flat",
@@ -54,6 +62,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stream.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_stream.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_minus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_minus.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pune_selected.png.flat",
@@ -80,12 +92,20 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\city_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_minus_grey.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_minus_grey.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_language_24.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_baseline_language_24.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_plus_grey.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_plus_grey.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -132,6 +152,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_google.png"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_purchase_bag.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_purchase_bag.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_splashscreen_logo.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\ic_splashscreen_logo.png"
     },
@@ -146,6 +170,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_google.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_google.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_plus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_plus_grey.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hyd_selected.png.flat",
@@ -164,6 +192,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_facebook.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_plus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_plus.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\navigation_main_navigation.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\navigation\\main_navigation.xml"
     },
@@ -172,8 +204,24 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_minus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_minus.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_chat_24.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_outline_chat_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_minus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_minus_grey.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_kolk.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\kolk.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_plus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_plus.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_facebook.png.flat",
@@ -192,6 +240,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\ncr_selected.png"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_minus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_minus.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_google.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_google.xml"
     },
@@ -200,8 +252,24 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\trailer_play_background.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_plus.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_minus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_minus_grey.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_events.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_plus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_plus_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_buzz.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_baseline_buzz.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_logout.xml.flat",
@@ -212,12 +280,12 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_artist.xml.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_artist.xml"
-    },
-    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pune.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\pune.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_artist.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_artist.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location.xml.flat",
@@ -254,6 +322,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_home_best_of_entertainment.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_home_best_of_entertainment.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_plus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_plus.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_home_features.xml.flat",
@@ -296,6 +368,14 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\font\\product_sans_regular.ttf"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_plus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_plus_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_plus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_plus.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto.ttf.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\font\\roboto.ttf"
     },
@@ -314,6 +394,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pink_btn_bg.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\pink_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_baseline_person.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -344,8 +428,16 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_video_player_icon_black.webp.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\video_player_icon_black.webp"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_koch.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\koch.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_plus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_plus_grey.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_buzz.xml.flat",
@@ -356,12 +448,16 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_email.xml"
     },
     {
-        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_home_header.xml.flat",
-        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_home_header.xml"
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_button_background.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\add_button_background.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_home_header.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_home_header.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_back_white.xml.flat",
@@ -376,6 +472,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\jaip_selected.png"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_next.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_baseline_next.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_event_details.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_event_details.xml"
     },
@@ -388,6 +488,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_youtube_player.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_minus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_minus_grey.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_chd_selected.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\chd_selected.png"
     },
@@ -396,8 +500,16 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_event.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_payment_event.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_like_border.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_like_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_minus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_minus.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -412,8 +524,20 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_facebook.png"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_purchase_history.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_purchase_history.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_rounded_image.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\bg_rounded_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_live_tv_24.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_baseline_live_tv_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_minus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_minus_grey.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_layout_home_events_parent.xml.flat",
@@ -430,6 +554,14 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_white.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_share_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_minus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_minus_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_plus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_plus_grey.png"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -456,6 +588,10 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\lang_header_bg.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_plus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_plus.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_google.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_google.png"
     },
@@ -464,8 +600,24 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_google.png"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_outline_settings_24.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_outline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_minus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_minus.png"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications.xml.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_plus.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_booked_events_item_layout.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\booked_events_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\font_roboto_italic.ttf.flat",
@@ -486,6 +638,18 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hyd.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\hyd.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment_successful.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_payment_successful.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_minus.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_minus.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_tab_color.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\bottom_tab_color.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\raw_cities.json.flat",
@@ -526,6 +690,22 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_jaip.png.flat",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable-v24\\jaip.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_plus_grey.png.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_plus_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_payment_event.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_payment_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_profile_grey.xml.flat",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\drawable\\ic_profile_grey.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

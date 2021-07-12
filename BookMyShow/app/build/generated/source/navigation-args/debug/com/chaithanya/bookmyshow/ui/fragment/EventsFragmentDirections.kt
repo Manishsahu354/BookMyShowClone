@@ -11,18 +11,18 @@ import kotlin.Int
 import kotlin.Suppress
 
 public class EventsFragmentDirections private constructor() {
-  private data class ActionEventsFragmentToEventDetailsFragment2(
-    public val eventmodel: HomeEventsChildModel
+  private data class ActionEventsFragment2ToEventDetailsFragment2(
+    public val eventModel: HomeEventsChildModel
   ) : NavDirections {
-    public override fun getActionId(): Int = R.id.action_eventsFragment_to_eventDetailsFragment2
+    public override fun getActionId(): Int = R.id.action_eventsFragment2_to_eventDetailsFragment2
 
     @Suppress("CAST_NEVER_SUCCEEDS")
     public override fun getArguments(): Bundle {
       val result = Bundle()
       if (Parcelable::class.java.isAssignableFrom(HomeEventsChildModel::class.java)) {
-        result.putParcelable("eventmodel", this.eventmodel as Parcelable)
+        result.putParcelable("eventModel", this.eventModel as Parcelable)
       } else if (Serializable::class.java.isAssignableFrom(HomeEventsChildModel::class.java)) {
-        result.putSerializable("eventmodel", this.eventmodel as Serializable)
+        result.putSerializable("eventModel", this.eventModel as Serializable)
       } else {
         throw UnsupportedOperationException(HomeEventsChildModel::class.java.name +
             " must implement Parcelable or Serializable or must be an Enum.")
@@ -32,7 +32,7 @@ public class EventsFragmentDirections private constructor() {
   }
 
   public companion object {
-    public fun actionEventsFragmentToEventDetailsFragment2(eventmodel: HomeEventsChildModel):
-        NavDirections = ActionEventsFragmentToEventDetailsFragment2(eventmodel)
+    public fun actionEventsFragment2ToEventDetailsFragment2(eventModel: HomeEventsChildModel):
+        NavDirections = ActionEventsFragment2ToEventDetailsFragment2(eventModel)
   }
 }

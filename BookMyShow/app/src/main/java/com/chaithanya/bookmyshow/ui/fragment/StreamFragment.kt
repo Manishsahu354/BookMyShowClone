@@ -38,7 +38,7 @@ class StreamFragment : Fragment() {
        _binding =  FragmentStreamBinding.inflate(inflater, container, false)
 
         binding.imageBack.setOnClickListener {
-           requireActivity().finish()
+           findNavController().popBackStack()
         }
         Glide.with(requireContext()).load(TAILGATE_IMAGE).into(binding.tailgateImage)
         binding.tailgateImage

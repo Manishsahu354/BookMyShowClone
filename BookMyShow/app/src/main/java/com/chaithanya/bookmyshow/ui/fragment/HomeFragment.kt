@@ -207,27 +207,27 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
 
 
         val homeStreamModel1 = HomeStreamModel(
-            thumbImage = HOME_STREAM_IMAGE_ONE,price = "100",categoryName = "Thriller",
+            thumbImage = HOME_STREAM_IMAGE_SEVEN,price = "100",categoryName = "Thriller",
             language = "English",time = "1h 52m",
             about = "The true story of the cold war spy",
             title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel2 = HomeStreamModel(
-            thumbImage = HOME_STREAM_IMAGE_ONE,price = "100",categoryName = "Thriller",
+            thumbImage = HOME_STREAM_IMAGE_FIVE,price = "100",categoryName = "Thriller",
             language = "English",time = "1h 52m",
             about = "The true story of the cold war spy",
             title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel3 = HomeStreamModel(
-            thumbImage = HOME_STREAM_IMAGE_TWO,price = "100",categoryName = "Thriller",
+            thumbImage = HOME_STREAM_IMAGE_SEVEN,price = "100",categoryName = "Thriller",
             language = "English",time = "1h 52m",
             about = "The true story of the cold war spy",
             title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel4 = HomeStreamModel(
-            thumbImage = HOME_STREAM_IMAGE_THREE,price = "100",categoryName = "Thriller",
+            thumbImage = HOME_STREAM_IMAGE_FIVE,price = "100",categoryName = "Thriller",
             language = "English",time = "1h 52m",
             about = "The true story of the cold war spy",
             title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel5 = HomeStreamModel(
-            thumbImage = HOME_STREAM_IMAGE_FOUR,price = "100",categoryName = "Thriller",
+            thumbImage = HOME_STREAM_IMAGE_SEVEN,price = "100",categoryName = "Thriller",
             language = "English",time = "1h 52m",
             about = "The true story of the cold war spy",
             title = "The Courier (2021)",date = "25 Jun 2019")
@@ -237,7 +237,7 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
             about = "The true story of the cold war spy",
             title = "The Courier (2021)",date = "25 Jun 2019")
         val homeStreamModel7 = HomeStreamModel(
-            thumbImage = HOME_STREAM_IMAGE_SIX,price = "100",categoryName = "Thriller",
+            thumbImage = HOME_STREAM_IMAGE_SEVEN,price = "100",categoryName = "Thriller",
             language = "English",time = "1h 52m",
             about = "The true story of the cold war spy",
             title = "The Courier (2021)",date = "25 Jun 2019")
@@ -442,9 +442,9 @@ class HomeFragment : Fragment(),HomeFeaturesItemClickListener {
         if (position==0){
 
         }else if (position==1){
-            findNavController().navigate(R.id.action_homeFragment_to_streamActivity)
+            findNavController().navigate(R.id.action_homeFragment_to_streamFragment)
         }else if(position==2){
-            findNavController().navigate(R.id.action_homeFragment_to_eventsActivity)
+            findNavController().navigate(R.id.action_homeFragment_to_eventsFragment2)
         }
     }
 

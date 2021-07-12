@@ -2,7 +2,7 @@ package com.chaithanya.bookmyshow.ui.fragment;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0004\u0018\u0000 \u00042\u00020\u0001:\u0002\u0003\u0004B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002\u00a8\u0006\u0005"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections;", "", "()V", "ActionHomeFragmentToEventDetailsFragmentFromHome", "Companion", "app_debug"})
+@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0004\u0018\u0000 \u00042\u00020\u0001:\u0002\u0003\u0004B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002\u00a8\u0006\u0005"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections;", "", "()V", "ActionHomeFragmentToEventDetailsFragment2", "Companion", "app_debug"})
 public final class HomeFragmentDirections {
     @org.jetbrains.annotations.NotNull()
     public static final com.chaithanya.bookmyshow.ui.fragment.HomeFragmentDirections.Companion Companion = null;
@@ -11,14 +11,14 @@ public final class HomeFragmentDirections {
         super();
     }
     
-    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\b\u0082\b\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\t\u0010\u0007\u001a\u00020\u0003H\u00c6\u0003J\u0013\u0010\b\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\t\u001a\u00020\n2\b\u0010\u000b\u001a\u0004\u0018\u00010\fH\u00d6\u0003J\b\u0010\r\u001a\u00020\u000eH\u0016J\b\u0010\u000f\u001a\u00020\u0010H\u0016J\t\u0010\u0011\u001a\u00020\u000eH\u00d6\u0001J\t\u0010\u0012\u001a\u00020\u0013H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u00a8\u0006\u0014"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome;", "Landroidx/navigation/NavDirections;", "events", "Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;", "(Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;)V", "getEvents", "()Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;", "component1", "copy", "equals", "", "other", "", "getActionId", "", "getArguments", "Landroid/os/Bundle;", "hashCode", "toString", "", "app_debug"})
-    static final class ActionHomeFragmentToEventDetailsFragmentFromHome implements androidx.navigation.NavDirections {
+    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\b\u0082\b\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\t\u0010\u0007\u001a\u00020\u0003H\u00c6\u0003J\u0013\u0010\b\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\t\u001a\u00020\n2\b\u0010\u000b\u001a\u0004\u0018\u00010\fH\u00d6\u0003J\b\u0010\r\u001a\u00020\u000eH\u0016J\b\u0010\u000f\u001a\u00020\u0010H\u0016J\t\u0010\u0011\u001a\u00020\u000eH\u00d6\u0001J\t\u0010\u0012\u001a\u00020\u0013H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u00a8\u0006\u0014"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragment2;", "Landroidx/navigation/NavDirections;", "eventModel", "Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;", "(Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;)V", "getEventModel", "()Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;", "component1", "copy", "equals", "", "other", "", "getActionId", "", "getArguments", "Landroid/os/Bundle;", "hashCode", "toString", "", "app_debug"})
+    static final class ActionHomeFragmentToEventDetailsFragment2 implements androidx.navigation.NavDirections {
         @org.jetbrains.annotations.NotNull()
-        private final com.chaithanya.bookmyshow.data.model.HomeEventsChildModel events = null;
+        private final com.chaithanya.bookmyshow.data.model.HomeEventsChildModel eventModel = null;
         
         @org.jetbrains.annotations.NotNull()
-        public final com.chaithanya.bookmyshow.ui.fragment.HomeFragmentDirections.ActionHomeFragmentToEventDetailsFragmentFromHome copy(@org.jetbrains.annotations.NotNull()
-        com.chaithanya.bookmyshow.data.model.HomeEventsChildModel events) {
+        public final com.chaithanya.bookmyshow.ui.fragment.HomeFragmentDirections.ActionHomeFragmentToEventDetailsFragment2 copy(@org.jetbrains.annotations.NotNull()
+        com.chaithanya.bookmyshow.data.model.HomeEventsChildModel eventModel) {
             return null;
         }
         
@@ -39,8 +39,8 @@ public final class HomeFragmentDirections {
             return null;
         }
         
-        public ActionHomeFragmentToEventDetailsFragmentFromHome(@org.jetbrains.annotations.NotNull()
-        com.chaithanya.bookmyshow.data.model.HomeEventsChildModel events) {
+        public ActionHomeFragmentToEventDetailsFragment2(@org.jetbrains.annotations.NotNull()
+        com.chaithanya.bookmyshow.data.model.HomeEventsChildModel eventModel) {
             super();
         }
         
@@ -50,7 +50,7 @@ public final class HomeFragmentDirections {
         }
         
         @org.jetbrains.annotations.NotNull()
-        public final com.chaithanya.bookmyshow.data.model.HomeEventsChildModel getEvents() {
+        public final com.chaithanya.bookmyshow.data.model.HomeEventsChildModel getEventModel() {
             return null;
         }
         
@@ -67,7 +67,7 @@ public final class HomeFragmentDirections {
         }
     }
     
-    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J\u000e\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u0006J\u0006\u0010\u0007\u001a\u00020\u0004J\u0006\u0010\b\u001a\u00020\u0004\u00a8\u0006\t"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion;", "", "()V", "actionHomeFragmentToEventDetailsFragmentFromHome", "Landroidx/navigation/NavDirections;", "events", "Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;", "actionHomeFragmentToEventsActivity", "actionHomeFragmentToStreamActivity", "app_debug"})
+    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J\u000e\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u0006J\u0006\u0010\u0007\u001a\u00020\u0004J\u0006\u0010\b\u001a\u00020\u0004\u00a8\u0006\t"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion;", "", "()V", "actionHomeFragmentToEventDetailsFragment2", "Landroidx/navigation/NavDirections;", "eventModel", "Lcom/chaithanya/bookmyshow/data/model/HomeEventsChildModel;", "actionHomeFragmentToEventsFragment2", "actionHomeFragmentToStreamFragment", "app_debug"})
     public static final class Companion {
         
         private Companion() {
@@ -75,18 +75,18 @@ public final class HomeFragmentDirections {
         }
         
         @org.jetbrains.annotations.NotNull()
-        public final androidx.navigation.NavDirections actionHomeFragmentToStreamActivity() {
+        public final androidx.navigation.NavDirections actionHomeFragmentToStreamFragment() {
             return null;
         }
         
         @org.jetbrains.annotations.NotNull()
-        public final androidx.navigation.NavDirections actionHomeFragmentToEventsActivity() {
+        public final androidx.navigation.NavDirections actionHomeFragmentToEventDetailsFragment2(@org.jetbrains.annotations.NotNull()
+        com.chaithanya.bookmyshow.data.model.HomeEventsChildModel eventModel) {
             return null;
         }
         
         @org.jetbrains.annotations.NotNull()
-        public final androidx.navigation.NavDirections actionHomeFragmentToEventDetailsFragmentFromHome(@org.jetbrains.annotations.NotNull()
-        com.chaithanya.bookmyshow.data.model.HomeEventsChildModel events) {
+        public final androidx.navigation.NavDirections actionHomeFragmentToEventsFragment2() {
             return null;
         }
     }

@@ -2,6 +2,10 @@ package com.chaithanya.bookmyshow.constant
 
 object Constants {
 
+    //RazorPay Key
+    const val RAZORPAY_ID = "rzp_test_bs6TMowiu38YGf"
+    const val KEY_SECRET = "eOpzqWGWVepZwjrPoFLvVOCb"
+
     //Youtube Player ApiKey
     const val YOUTUBE_API_KEY = "AIzaSyA6O9BhscZ2eKsJV-6ldUbibipcJ3rshgs"
 

@@ -26,6 +26,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.BookMyShow" >
+        <activity android:name="com.chaithanya.bookmyshow.ui.activity.PaymentSuccessfulActivity" />
+        <activity android:name="com.chaithanya.bookmyshow.ui.activity.PaymentEventActivity" />
         <activity
             android:name="com.chaithanya.bookmyshow.ui.activity.YoutubePlayerActivity"
             android:screenOrientation="landscape" />
@@ -138,6 +140,24 @@
             </intent-filter>
         </service>
 
+        <receiver android:name="com.razorpay.RzpTokenReceiver" >
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@style/CheckoutTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
@@ -227,6 +247,11 @@
 
         <receiver
             android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
             android:exported="false" />
     </application>
 

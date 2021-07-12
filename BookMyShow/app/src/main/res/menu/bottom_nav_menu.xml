@@ -9,11 +9,11 @@
     <item
         android:id="@+id/buzzFragment"
         android:title="Buzz"
-        android:icon="@drawable/ic_add_person"/>
+        android:icon="@drawable/ic_baseline_buzz"/>
 
     <item
         android:id="@+id/profileFragment"
         android:title="Profile"
-        android:icon="@drawable/ic_add_person"/>
+        android:icon="@drawable/ic_baseline_person"/>
 
 </menu>

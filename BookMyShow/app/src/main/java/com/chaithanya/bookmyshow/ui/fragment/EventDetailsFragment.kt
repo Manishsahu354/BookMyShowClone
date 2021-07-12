@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.chaithanya.bookmyshow.databinding.FragmentEventDetailsBinding
@@ -25,8 +26,11 @@ class EventDetailsFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding =  FragmentEventDetailsBinding.inflate(inflater, container, false)
 
+        binding.imageBack.setOnClickListener {
+            findNavController().popBackStack()
+        }
 
-        val eventModel = args.eventmodel
+        val eventModel = args.eventModel
 
         Glide.with(requireContext()).load(eventModel.fullImage).into(binding.imageStream)
         binding.headerStreamTitle.text = eventModel.title
@@ -42,7 +46,7 @@ class EventDetailsFragment : Fragment() {
             binding.eventPrice.text = "₹ ${eventModel.price}"
             binding.eventPrice.visibility = View.VISIBLE
         }else{
-            binding.eventPrice.visibility = View.GONE
+            binding.eventPrice.text = "Free"
         }
 
         val artistList = eventModel.Artist
@@ -55,6 +59,7 @@ class EventDetailsFragment : Fragment() {
 
             val artistAdapter = ArtistAdapter(artistList)
             binding.recyclerviewArtist.adapter = artistAdapter
+            artistAdapter.notifyDataSetChanged()
 
         }else{
 
@@ -63,6 +68,12 @@ class EventDetailsFragment : Fragment() {
 
         }
 
+        binding.btnRegister.setOnClickListener {
+
+                findNavController().navigate(EventDetailsFragmentDirections
+                    .actionEventDetailsFragment2ToPaymentEventActivity2(eventModel))
+
+        }
 
         return binding.root
     }

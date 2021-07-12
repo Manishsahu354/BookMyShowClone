@@ -10,6 +10,9 @@ import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.chaithanya.bookmyshow.R
 import com.chaithanya.bookmyshow.databinding.FragmentStreamMovieBinding
+import com.chaithanya.bookmyshow.ui.adapter.ArtistAdapter
+import com.chaithanya.bookmyshow.ui.adapter.CastAdapter
+import com.chaithanya.bookmyshow.ui.adapter.CrewAdapter
 
 
 class StreamMovieFragment : Fragment() {
@@ -37,6 +40,43 @@ class StreamMovieFragment : Fragment() {
         binding.tvAge.text = streamModel.age
         binding.tvAbout.text = streamModel.about
 
+
+
+        val castList = streamModel.cast
+        val crewList = streamModel.crew
+
+        if ( castList != null && castList.size != 0){
+
+
+            binding.tvCast.visibility = View.VISIBLE
+            binding.recyclerviewCast.visibility = View.VISIBLE
+
+            val castAdapter = CastAdapter(castList)
+            binding.recyclerviewCast.adapter = castAdapter
+
+        }else{
+
+            binding.tvCast.visibility = View.GONE
+            binding.recyclerviewCast.visibility = View.GONE
+
+        }
+
+        if ( crewList != null && crewList.size != 0){
+
+
+            binding.tvCrew.visibility = View.VISIBLE
+            binding.recyclerviewCrew.visibility = View.VISIBLE
+
+            val crewAdapter = CrewAdapter(crewList)
+            binding.recyclerviewCrew.adapter = crewAdapter
+
+        }else{
+
+            binding.tvCrew.visibility = View.GONE
+            binding.recyclerviewCrew.visibility = View.GONE
+
+        }
+
         binding.imageBack.setOnClickListener {
             findNavController().popBackStack()
         }
@@ -45,7 +85,7 @@ class StreamMovieFragment : Fragment() {
         }
         binding.llPlayTrailer.setOnClickListener {
             findNavController().navigate(StreamMovieFragmentDirections
-                .actionStreamMovieFragmentToYoutubePlayerActivity(streamModel.trailerUrl!!))
+                .actionStreamMovieFragment2ToYoutubePlayerActivity2(streamModel.trailerUrl!!))
         }
         binding.buttonPay.setOnClickListener {
 

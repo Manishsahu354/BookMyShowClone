@@ -24,6 +24,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:itemIconTint="@drawable/bottom_tab_color"
+        app:itemTextColor="@drawable/bottom_tab_color"
         style="@style/bottom_navigation_view"
         app:menu="@menu/bottom_nav_menu"
         />

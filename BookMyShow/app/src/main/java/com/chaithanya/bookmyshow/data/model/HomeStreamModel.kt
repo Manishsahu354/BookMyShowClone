@@ -9,9 +9,9 @@ import kotlinx.parcelize.RawValue
 data class HomeStreamModel(
     val about:String? = null,
     val age:String? = null,
-    val cast: @RawValue MutableList<CastModel>? = null,
+    val cast: @RawValue MutableList<CastModel>? = mutableListOf(),
     val categoryName:String? = null,
-    val crew: @RawValue MutableList<CrewModel>? = null,
+    val crew: @RawValue MutableList<CrewModel>? = mutableListOf(),
     val date:String? = null,
     val language:String? = null,
     val mainImage:String? = null,

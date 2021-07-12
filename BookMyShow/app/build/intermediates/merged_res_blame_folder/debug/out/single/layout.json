@@ -36,12 +36,24 @@
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_youtube_player.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_purchase_history.xml",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_purchase_history.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_payment_event.xml",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_payment_event.xml"
+    },
+    {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_logout.xml",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_payment_event.xml",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_payment_event.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\city_item_layout.xml",
@@ -58,6 +70,10 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_layout_buzz_status.xml",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_buzz_status.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_payment_successful.xml",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\activity_payment_successful.xml"
     },
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_events.xml",
@@ -122,5 +138,13 @@
     {
         "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_layout_artist.xml",
         "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\item_layout_artist.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_search.xml",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\fragment_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\booked_events_item_layout.xml",
+        "source": "C:\\Users\\manishkumar\\Desktop\\AllProjects\\BookMyShow\\BookMyShowClone\\BookMyShow\\app\\src\\main\\res\\layout\\booked_events_item_layout.xml"
     }
 ]

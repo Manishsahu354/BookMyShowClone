@@ -38,7 +38,7 @@ class EventsFragment : Fragment(),EventsItemClickListener{
         readDataFromFirebase()
 
         binding.imageBack.setOnClickListener {
-            requireActivity().finish()
+            findNavController().popBackStack()
         }
 
         return binding.root
@@ -105,7 +105,7 @@ class EventsFragment : Fragment(),EventsItemClickListener{
         }
 
     override fun onEventsItemClicked(childModel: HomeEventsChildModel) {
-        findNavController().navigate(EventsFragmentDirections.actionEventsFragmentToEventDetailsFragment2(childModel))
+        findNavController().navigate(EventsFragmentDirections.actionEventsFragment2ToEventDetailsFragment2(childModel))
     }
 
 }

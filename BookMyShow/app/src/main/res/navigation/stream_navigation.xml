@@ -2,36 +2,4 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_navigation"
-    app:startDestination="@id/streamFragment2">
-    <fragment
-        android:id="@+id/streamFragment2"
-        android:name="com.chaithanya.bookmyshow.ui.fragment.StreamFragment"
-        android:label="fragment_stream"
-        tools:layout="@layout/fragment_stream" >
-        <action
-            android:id="@+id/action_streamFragment2_to_streamMovieFragment"
-            app:destination="@id/streamMovieFragment" />
-    </fragment>
-    <fragment
-        android:id="@+id/streamMovieFragment"
-        android:name="com.chaithanya.bookmyshow.ui.fragment.StreamMovieFragment"
-        android:label="fragment_stream_movie"
-        tools:layout="@layout/fragment_stream_movie" >
-        <argument
-            android:name="stream"
-            app:argType="com.chaithanya.bookmyshow.data.model.HomeStreamModel" />
-        <action
-            android:id="@+id/action_streamMovieFragment_to_youtubePlayerActivity"
-            app:destination="@id/youtubePlayerActivity" />
-    </fragment>
-    <activity
-        android:id="@+id/youtubePlayerActivity"
-        android:name="com.chaithanya.bookmyshow.ui.activity.YoutubePlayerActivity"
-        android:label="activity_youtube_player"
-        tools:layout="@layout/activity_youtube_player" >
-        <argument
-            android:name="youtubelink"
-            app:argType="string" />
-    </activity>
-</navigation>
+    android:id="@+id/main_navigation"/>

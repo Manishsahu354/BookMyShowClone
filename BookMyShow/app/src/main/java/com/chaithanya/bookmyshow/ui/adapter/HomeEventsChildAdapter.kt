@@ -34,7 +34,7 @@ class HomeEventsChildAdapter(val homeEventsChildModelList:MutableList<HomeEvents
             tvCategory.text = homeEventsChildModelList[position].categoryName
 
             homeEventsChildConstraint.setOnClickListener {
-                it.findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToEventDetailsFragmentFromHome(homeEventsChildModelList[position]))
+                it.findNavController().navigate(HomeFragmentDirections.actionHomeFragmentToEventDetailsFragment2(homeEventsChildModelList[position]))
 
             }
         }

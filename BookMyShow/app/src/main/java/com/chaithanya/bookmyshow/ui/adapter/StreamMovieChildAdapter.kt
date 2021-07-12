@@ -37,7 +37,7 @@ class StreamMovieChildAdapter(
 
             streamMoviesChildConstraint.setOnClickListener {
                 it.findNavController().navigate(StreamFragmentDirections
-                    .actionStreamFragment2ToStreamMovieFragment(homeStreamList[position]))
+                    .actionStreamFragmentToStreamMovieFragment2(homeStreamList[position]))
             }
         }
     }

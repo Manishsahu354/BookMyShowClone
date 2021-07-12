@@ -1,14 +1,22 @@
 package com.chaithanya.bookmyshow.repository
 
+import androidx.lifecycle.LiveData
+import com.chaithanya.bookmyshow.data.local.BookedEventDAO
+import com.chaithanya.bookmyshow.data.local.BookedEventEntity
 import com.chaithanya.bookmyshow.data.model.ArtistModel
 import com.chaithanya.bookmyshow.data.model.HomeEventsChildModel
 import com.chaithanya.bookmyshow.data.model.HomeEventsParentModel
 import com.google.firebase.database.*
+import dagger.hilt.android.scopes.ActivityRetainedScoped
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
+import javax.inject.Inject
 
-class EventsRepository {
+@ActivityRetainedScoped
+class EventsRepository @Inject constructor(
+    private val bookedEventDAO: BookedEventDAO
+) {
 
     private val database = FirebaseDatabase.getInstance().getReference("homeNested")
     private val homeEventsParentList:MutableList<HomeEventsParentModel> = mutableListOf()
@@ -67,5 +75,13 @@ class EventsRepository {
         })
         return homeEventsParentList
 
+    }
+
+    suspend fun insertBookedEvent(event: BookedEventEntity){
+        bookedEventDAO.insertBookedEvent(event)
+    }
+
+    fun getAllBookedEvent(): LiveData<MutableList<BookedEventEntity>>{
+       return bookedEventDAO.getAllBookedEvent()
     }
 }

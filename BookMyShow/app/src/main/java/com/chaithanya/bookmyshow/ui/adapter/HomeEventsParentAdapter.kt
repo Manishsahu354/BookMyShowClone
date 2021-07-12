@@ -26,7 +26,7 @@ class HomeEventsParentAdapter(var homeEventsParentList:MutableList<HomeEventsPar
         holder.tvEventName.text = homeEventsParentList[position].eventsName
 
         holder.tvSeeAll.setOnClickListener {
-            it.findNavController().navigate(R.id.action_homeFragment_to_eventsActivity)
+            it.findNavController().navigate(R.id.action_homeFragment_to_eventsFragment2)
         }
 
         val childList = homeEventsParentList[position].childList

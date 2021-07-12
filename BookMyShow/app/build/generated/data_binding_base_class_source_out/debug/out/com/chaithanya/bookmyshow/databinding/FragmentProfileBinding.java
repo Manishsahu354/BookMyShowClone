@@ -4,25 +4,97 @@ package com.chaithanya.bookmyshow.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.chaithanya.bookmyshow.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentProfileBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentProfileBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView bgStreamHeader;
+
+  @NonNull
+  public final CardView cardAccountsAndSettings;
+
+  @NonNull
+  public final CardView cardHelpAndSupport;
+
+  @NonNull
+  public final CardView cardPurchase;
+
+  @NonNull
+  public final CardView cardStreamLibrary;
+
+  @NonNull
+  public final ImageView imageAccountAndSetting;
+
+  @NonNull
+  public final ImageView imageAccountAndSettingNext;
+
+  @NonNull
+  public final ImageView imageHelpAndSupport;
+
+  @NonNull
+  public final ImageView imageHelpAndSupportNext;
+
+  @NonNull
+  public final ImageView imagePurchaseBag;
+
+  @NonNull
+  public final ImageView imagePurchaseNext;
+
+  @NonNull
+  public final ImageView imageStream;
+
+  @NonNull
+  public final TextView imageStreamLogo;
+
+  @NonNull
+  public final ImageView imageStreamNext;
+
+  @NonNull
+  public final TextView tvLocation;
+
+  private FragmentProfileBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView bgStreamHeader, @NonNull CardView cardAccountsAndSettings,
+      @NonNull CardView cardHelpAndSupport, @NonNull CardView cardPurchase,
+      @NonNull CardView cardStreamLibrary, @NonNull ImageView imageAccountAndSetting,
+      @NonNull ImageView imageAccountAndSettingNext, @NonNull ImageView imageHelpAndSupport,
+      @NonNull ImageView imageHelpAndSupportNext, @NonNull ImageView imagePurchaseBag,
+      @NonNull ImageView imagePurchaseNext, @NonNull ImageView imageStream,
+      @NonNull TextView imageStreamLogo, @NonNull ImageView imageStreamNext,
+      @NonNull TextView tvLocation) {
     this.rootView = rootView;
+    this.bgStreamHeader = bgStreamHeader;
+    this.cardAccountsAndSettings = cardAccountsAndSettings;
+    this.cardHelpAndSupport = cardHelpAndSupport;
+    this.cardPurchase = cardPurchase;
+    this.cardStreamLibrary = cardStreamLibrary;
+    this.imageAccountAndSetting = imageAccountAndSetting;
+    this.imageAccountAndSettingNext = imageAccountAndSettingNext;
+    this.imageHelpAndSupport = imageHelpAndSupport;
+    this.imageHelpAndSupportNext = imageHelpAndSupportNext;
+    this.imagePurchaseBag = imagePurchaseBag;
+    this.imagePurchaseNext = imagePurchaseNext;
+    this.imageStream = imageStream;
+    this.imageStreamLogo = imageStreamLogo;
+    this.imageStreamNext = imageStreamNext;
+    this.tvLocation = tvLocation;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +115,107 @@ public final class FragmentProfileBinding implements ViewBinding {
 
   @NonNull
   public static FragmentProfileBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.bgStreamHeader;
+      TextView bgStreamHeader = rootView.findViewById(id);
+      if (bgStreamHeader == null) {
+        break missingId;
+      }
 
-    return new FragmentProfileBinding((FrameLayout) rootView);
+      id = R.id.cardAccountsAndSettings;
+      CardView cardAccountsAndSettings = rootView.findViewById(id);
+      if (cardAccountsAndSettings == null) {
+        break missingId;
+      }
+
+      id = R.id.cardHelpAndSupport;
+      CardView cardHelpAndSupport = rootView.findViewById(id);
+      if (cardHelpAndSupport == null) {
+        break missingId;
+      }
+
+      id = R.id.cardPurchase;
+      CardView cardPurchase = rootView.findViewById(id);
+      if (cardPurchase == null) {
+        break missingId;
+      }
+
+      id = R.id.cardStreamLibrary;
+      CardView cardStreamLibrary = rootView.findViewById(id);
+      if (cardStreamLibrary == null) {
+        break missingId;
+      }
+
+      id = R.id.imageAccountAndSetting;
+      ImageView imageAccountAndSetting = rootView.findViewById(id);
+      if (imageAccountAndSetting == null) {
+        break missingId;
+      }
+
+      id = R.id.imageAccountAndSettingNext;
+      ImageView imageAccountAndSettingNext = rootView.findViewById(id);
+      if (imageAccountAndSettingNext == null) {
+        break missingId;
+      }
+
+      id = R.id.imageHelpAndSupport;
+      ImageView imageHelpAndSupport = rootView.findViewById(id);
+      if (imageHelpAndSupport == null) {
+        break missingId;
+      }
+
+      id = R.id.imageHelpAndSupportNext;
+      ImageView imageHelpAndSupportNext = rootView.findViewById(id);
+      if (imageHelpAndSupportNext == null) {
+        break missingId;
+      }
+
+      id = R.id.imagePurchaseBag;
+      ImageView imagePurchaseBag = rootView.findViewById(id);
+      if (imagePurchaseBag == null) {
+        break missingId;
+      }
+
+      id = R.id.imagePurchaseNext;
+      ImageView imagePurchaseNext = rootView.findViewById(id);
+      if (imagePurchaseNext == null) {
+        break missingId;
+      }
+
+      id = R.id.imageStream;
+      ImageView imageStream = rootView.findViewById(id);
+      if (imageStream == null) {
+        break missingId;
+      }
+
+      id = R.id.imageStreamLogo;
+      TextView imageStreamLogo = rootView.findViewById(id);
+      if (imageStreamLogo == null) {
+        break missingId;
+      }
+
+      id = R.id.imageStreamNext;
+      ImageView imageStreamNext = rootView.findViewById(id);
+      if (imageStreamNext == null) {
+        break missingId;
+      }
+
+      id = R.id.tvLocation;
+      TextView tvLocation = rootView.findViewById(id);
+      if (tvLocation == null) {
+        break missingId;
+      }
+
+      return new FragmentProfileBinding((ConstraintLayout) rootView, bgStreamHeader,
+          cardAccountsAndSettings, cardHelpAndSupport, cardPurchase, cardStreamLibrary,
+          imageAccountAndSetting, imageAccountAndSettingNext, imageHelpAndSupport,
+          imageHelpAndSupportNext, imagePurchaseBag, imagePurchaseNext, imageStream,
+          imageStreamLogo, imageStreamNext, tvLocation);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

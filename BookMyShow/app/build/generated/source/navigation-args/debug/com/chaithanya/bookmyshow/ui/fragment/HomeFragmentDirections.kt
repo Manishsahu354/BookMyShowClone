@@ -12,19 +12,18 @@ import kotlin.Int
 import kotlin.Suppress
 
 public class HomeFragmentDirections private constructor() {
-  private data class ActionHomeFragmentToEventDetailsFragmentFromHome(
-    public val events: HomeEventsChildModel
+  private data class ActionHomeFragmentToEventDetailsFragment2(
+    public val eventModel: HomeEventsChildModel
   ) : NavDirections {
-    public override fun getActionId(): Int =
-        R.id.action_homeFragment_to_eventDetailsFragmentFromHome
+    public override fun getActionId(): Int = R.id.action_homeFragment_to_eventDetailsFragment2
 
     @Suppress("CAST_NEVER_SUCCEEDS")
     public override fun getArguments(): Bundle {
       val result = Bundle()
       if (Parcelable::class.java.isAssignableFrom(HomeEventsChildModel::class.java)) {
-        result.putParcelable("events", this.events as Parcelable)
+        result.putParcelable("eventModel", this.eventModel as Parcelable)
       } else if (Serializable::class.java.isAssignableFrom(HomeEventsChildModel::class.java)) {
-        result.putSerializable("events", this.events as Serializable)
+        result.putSerializable("eventModel", this.eventModel as Serializable)
       } else {
         throw UnsupportedOperationException(HomeEventsChildModel::class.java.name +
             " must implement Parcelable or Serializable or must be an Enum.")
@@ -34,13 +33,13 @@ public class HomeFragmentDirections private constructor() {
   }
 
   public companion object {
-    public fun actionHomeFragmentToStreamActivity(): NavDirections =
-        ActionOnlyNavDirections(R.id.action_homeFragment_to_streamActivity)
+    public fun actionHomeFragmentToStreamFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_homeFragment_to_streamFragment)
 
-    public fun actionHomeFragmentToEventsActivity(): NavDirections =
-        ActionOnlyNavDirections(R.id.action_homeFragment_to_eventsActivity)
+    public fun actionHomeFragmentToEventDetailsFragment2(eventModel: HomeEventsChildModel):
+        NavDirections = ActionHomeFragmentToEventDetailsFragment2(eventModel)
 
-    public fun actionHomeFragmentToEventDetailsFragmentFromHome(events: HomeEventsChildModel):
-        NavDirections = ActionHomeFragmentToEventDetailsFragmentFromHome(events)
+    public fun actionHomeFragmentToEventsFragment2(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_homeFragment_to_eventsFragment2)
   }
 }

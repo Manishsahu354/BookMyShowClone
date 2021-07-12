@@ -14,6 +14,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25b51c54-30cf-447c-8cf5-504a8976ebce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/libs/checkout-1.6.6.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/constant/adderView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/data/local/BookMyShowDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/data/local/BookedEventDAO.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/data/local/BookedEventEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/di/DatabaseModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/activity/PaymentEventActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/activity/PaymentSuccessfulActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/CastAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/CrewAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/PurchaseHistoryAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/PaymentEventFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/PurchaseHistoryFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/SearchFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/video_player_icon_black.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/add_button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_tab_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_buzz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_live_tv_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_next.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_minus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_minus_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_chat_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_outline_settings_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_plus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_plus_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_profile_grey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_purchase_bag.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_event.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payment_successful.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/booked_events_item_layout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment_event.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_purchase_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -25,11 +60,50 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/chaithanya/bookmyshow/databinding/FragmentStreamBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/chaithanya/bookmyshow/databinding/FragmentStreamBinding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/META-INF/app_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/BookMyShow.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/BookMyShow.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/chaithanya/bookmyshow/databinding/FragmentProfileBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/chaithanya/bookmyshow/databinding/FragmentProfileBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/chaithanya/bookmyshow/databinding/FragmentStreamMovieBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/data_binding_base_class_source_out/debug/out/com/chaithanya/bookmyshow/databinding/FragmentStreamMovieBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/chaithanya/bookmyshow/di/AppModule_ProvideEventsRepositoryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/hilt_aggregated_deps/_com_chaithanya_bookmyshow_di_AppModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/navigation-args/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityRetainedC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityRetainedC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$FragmentC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$FragmentC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ServiceC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ServiceC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$SingletonC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$SingletonC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewModelC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewModelC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewWithFragmentC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewWithFragmentC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/MyApplication_HiltComponents.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/constant/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/constant/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityEventsBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityEventsBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/data/model/HomeStreamModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/data/model/HomeStreamModel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityMainBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityStreamBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityStreamBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityYoutubePlayerBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ActivityYoutubePlayerBinding.class" afterDir="false" />
@@ -54,6 +128,14 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamHandpickedBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamHandpickedBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesChildBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesChildBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesParentBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesParentBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/di/AppModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/di/AppModule_ProvideEventsRepositoryFactory$InstanceHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/di/AppModule_ProvideEventsRepositoryFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository$getEventListForHome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository$getEventListForHome$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/repository/StreamRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/repository/StreamRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/activity/EventsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/activity/EventsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/activity/StreamActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/activity/StreamActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter$ArtistViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter$ArtistViewHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/BuzzArticleAdapter$BuzzArticleViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/BuzzArticleAdapter$BuzzArticleViewHolder.class" afterDir="false" />
@@ -80,23 +162,44 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter$StreamMoviesParentViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter$StreamMoviesParentViewHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/BuzzFragmentDirections$ActionBuzzFragmentToBuzzDetailsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/BuzzFragmentDirections$ActionBuzzFragmentToBuzzDetailsFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome$special$$inlined$navArgs$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel$getEventList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel$getEventList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_classes/debug/hilt_aggregated_deps/_com_chaithanya_bookmyshow_di_AppModule.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_jars/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/asm_instrumented_project_jars/debug/0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.chaithanya.bookmyshow-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.chaithanya.bookmyshow-binding_classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/fragment_stream-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/fragment_stream-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_main-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/activity_main-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/fragment_profile-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/fragment_profile-layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/fragment_stream_movie-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/fragment_stream_movie-layout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex" afterDir="false" />
@@ -104,28 +207,39 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4iVvfBW5+OO32zCpYTkSaIJa3Ws=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/4iVvfBW5+OO32zCpYTkSaIJa3Ws=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/V4GwBEPupECkR3CPsA2xncC387I=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/V4GwBEPupECkR3CPsA2xncC387I=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ev7zpD631OtewcQId9MUstbU+uM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ev7zpD631OtewcQId9MUstbU+uM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qZsnAkTCq2bntFlCg1qPYX7bYBE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qZsnAkTCq2bntFlCg1qPYX7bYBE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vAYZg2FADf2bWHY4IjGZ7_28ZKQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vAYZg2FADf2bWHY4IjGZ7_28ZKQ=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xv8+lI7GtdIIvzuby++RWhNwt1Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zuAFwm2idVAPeS0DLI9vePtCpbs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2YQ9_kpvk1jhkvh6+9cdqqtcHdI=" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4iVvfBW5+OO32zCpYTkSaIJa3Ws=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/4iVvfBW5+OO32zCpYTkSaIJa3Ws=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/V4GwBEPupECkR3CPsA2xncC387I=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/V4GwBEPupECkR3CPsA2xncC387I=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ev7zpD631OtewcQId9MUstbU+uM=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ev7zpD631OtewcQId9MUstbU+uM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qZsnAkTCq2bntFlCg1qPYX7bYBE=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qZsnAkTCq2bntFlCg1qPYX7bYBE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vAYZg2FADf2bWHY4IjGZ7_28ZKQ=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vAYZg2FADf2bWHY4IjGZ7_28ZKQ=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/xv8+lI7GtdIIvzuby++RWhNwt1Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/zuAFwm2idVAPeS0DLI9vePtCpbs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2YQ9_kpvk1jhkvh6+9cdqqtcHdI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/generateSafeArgsDebug/file_mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/generateSafeArgsDebug/file_mappings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_event_details.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityEventsBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityEventsBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCI.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCI.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl$SwitchingProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl$SwitchingProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityRetainedC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityRetainedC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$FragmentC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$FragmentC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ServiceC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ServiceC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$SingletonC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$SingletonC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewModelC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewModelC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewWithFragmentC.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewWithFragmentC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/MyApplication_HiltComponents.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityMainBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityStreamBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityStreamBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityYoutubePlayerBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ActivityYoutubePlayerBinding.class" afterDir="false" />
@@ -150,17 +264,46 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamHandpickedBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamHandpickedBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesChildBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesChildBinding.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesParentBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesParentBinding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/di/AppModule_ProvideEventsRepositoryFactory$InstanceHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/chaithanya/bookmyshow/di/AppModule_ProvideEventsRepositoryFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/hilt_aggregated_deps/_com_chaithanya_bookmyshow_di_AppModule.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/bd4445967587e55c6195c6e3cc6f9f771b43d256052bcb701aab4dbd8d62338d_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/bd4445967587e55c6195c6e3cc6f9f771b43d256052bcb701aab4dbd8d62338d_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCBuilder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCBuilder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCBuilder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCI.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$FragmentCI.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCBuilder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCBuilder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCI.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl$ViewCI.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ActivityCImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCBuilder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCBuilder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl$ViewModelCImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ActivityRetainedCImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$Builder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$Builder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCBuilder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCBuilder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC$ServiceCImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/DaggerMyApplication_HiltComponents_SingletonC.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityRetainedC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ActivityRetainedC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$FragmentC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$FragmentC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ServiceC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ServiceC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$SingletonC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$SingletonC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewModelC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewModelC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewWithFragmentC.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents$ViewWithFragmentC.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/MyApplication_HiltComponents.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/constant/Constants.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/constant/Constants.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityEventsBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityEventsBinding.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/data/model/HomeStreamModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/data/model/HomeStreamModel.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityMainBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityMainBinding.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityStreamBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityStreamBinding.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityYoutubePlayerBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ActivityYoutubePlayerBinding.dex" afterDir="false" />
@@ -185,6 +328,14 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamHandpickedBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamHandpickedBinding.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesChildBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesChildBinding.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesParentBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/databinding/ItemLayoutStreamMoviesParentBinding.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/di/AppModule.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/di/AppModule_ProvideEventsRepositoryFactory$InstanceHolder.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/di/AppModule_ProvideEventsRepositoryFactory.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/repository/EventsRepository$getEventListForHome$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/repository/EventsRepository$getEventListForHome$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/repository/EventsRepository.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/repository/EventsRepository.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/repository/StreamRepository.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/repository/StreamRepository.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/activity/EventsActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/activity/EventsActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/activity/StreamActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/activity/StreamActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter$ArtistViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter$ArtistViewHolder.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/BuzzArticleAdapter$BuzzArticleViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/BuzzArticleAdapter$BuzzArticleViewHolder.dex" afterDir="false" />
@@ -211,17 +362,44 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter$StreamMoviesParentViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter$StreamMoviesParentViewHolder.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/BuzzFragmentDirections$ActionBuzzFragmentToBuzzDetailsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/BuzzFragmentDirections$ActionBuzzFragmentToBuzzDetailsFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs$Companion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs$Companion.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome$special$$inlined$navArgs$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs$Companion.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$ActionStreamMovieFragmentToYoutubePlayerActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$ActionStreamMovieFragmentToYoutubePlayerActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$ActionStreamMovieFragmentToYoutubePlayerActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/viewmodel/HomeViewModel$getEventList$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/viewmodel/HomeViewModel$getEventList$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/hilt_aggregated_deps/_com_chaithanya_bookmyshow_di_AppModule.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_profile.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_stream.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_stream.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_stream_movie.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_stream_movie.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_layout_stream_handpicked.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_layout_stream_handpicked.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_event_navigation.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_event_navigation.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_main_navigation.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_main_navigation.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_stream_navigation.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_stream_navigation.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
@@ -245,11 +423,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
@@ -293,9 +467,14 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
@@ -326,12 +505,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/constants.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
@@ -369,33 +543,98 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/ap-classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/ap-classpath-entries.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/apt-cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/apt-cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/java-cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incApCache/debug/java-cache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/META-INF/app_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/constant/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/constant/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/di/AppModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/repository/EventsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/repository/EventsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$ActionStreamMovieFragmentToYoutubePlayerActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/MainActivity.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/MainActivity.kapt_metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/constant/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/constant/Constants.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/constant/Constants.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/data/model/HomeStreamModel.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/data/model/HomeStreamModel.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/di/AppModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/di/AppModule.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/repository/EventsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/repository/EventsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/repository/EventsRepository.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/repository/EventsRepository.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/repository/StreamRepository.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/repository/StreamRepository.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/activity/EventsActivity.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/activity/EventsActivity.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/activity/StreamActivity.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/activity/StreamActivity.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/adapter/EventsAdapter.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/adapter/EventsAdapter.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/adapter/HomeEventsChildAdapter.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/adapter/HomeEventsChildAdapter.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/adapter/HomeEventsParentAdapter.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/adapter/HomeEventsParentAdapter.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs.kapt_metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.kapt_metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.kapt_metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/MainActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/constant/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/constant/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/data/model/HomeStreamModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/data/model/HomeStreamModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/di/AppModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository$getEventListForHome$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository$getEventListForHome$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/repository/EventsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/repository/StreamRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/repository/StreamRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/activity/EventsActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/activity/EventsActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/activity/StreamActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/activity/StreamActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter$ArtistViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter$ArtistViewHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/BuzzArticleAdapter$BuzzArticleViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/BuzzArticleAdapter$BuzzArticleViewHolder.class" afterDir="false" />
@@ -422,19 +661,68 @@
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter$StreamMoviesParentViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter$StreamMoviesParentViewHolder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/adapter/StreamMoviesParentAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/BuzzFragmentDirections$ActionBuzzFragmentToBuzzDetailsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/BuzzFragmentDirections$ActionBuzzFragmentToBuzzDetailsFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentArgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome$special$$inlined$navArgs$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHomeArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$ActionEventsFragmentToEventDetailsFragment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/EventsFragmentDirections.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$ActionHomeFragmentToEventDetailsFragmentFromHome.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment$readDataFromFirebase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/HomeFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$ActionStreamMovieFragmentToYoutubePlayerActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$ActionStreamMovieFragmentToYoutubePlayerActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$ActionStreamMovieFragmentToYoutubePlayerActivity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragmentDirections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel$getEventList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel$getEventList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/constant/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/constant/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/data/model/HomeEventsChildModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/data/model/HomeStreamModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/data/model/HomeStreamModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/di/AppModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/repository/EventsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/repository/EventsRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/repository/StreamRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/repository/StreamRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/activity/EventsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/activity/EventsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/activity/StreamActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/activity/StreamActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/EventsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/EventsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/HomeEventsChildAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/HomeEventsChildAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/HomeEventsParentAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/HomeEventsParentAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/StreamHandpickedAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/StreamHandpickedAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/ProfileFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/StreamMovieFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_stream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_stream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_stream_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_stream_movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_layout_stream_handpicked.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_layout_stream_handpicked.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/event_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/event_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/main_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/stream_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/stream_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,13 +735,45 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BookMyShow" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BookMyShow" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="BookMyShow" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="navigationResourceFile" />
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
         <option value="Kotlin Object" />
+        <option value="resourceFile" />
+        <option value="Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
@@ -480,24 +800,25 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-05T07:18:01.281315700Z" />
     <property name="ResourceManagerPrefKey.ResourceType" value="NAVIGATION" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/manishkumar/Desktop/AllProjects/BookMyShow/BookMyShowClone/BookMyShow/app/src/main/java/com/chaithanya/bookmyshow/constant/adderView.java_SELECTED" value="adderView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.chaithanya.bookmyshow.ui.fragment" />
       <recent name="com.chaithanya.bookmyshow.data.model" />
       <recent name="com.chaithanya.bookmyshow.ui.adapter" />
-      <recent name="com.chaithanya.bookmyshow.ui.fragment" />
     </key>
     <key name="android.template.-59542500">
       <recent name="com.chaithanya.bookmyshow.ui.activity" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.chaithanya.bookmyshow.ui.adapter" />
+      <recent name="com.chaithanya.bookmyshow.data.local" />
+      <recent name="com.chaithanya.bookmyshow.di" />
       <recent name="com.chaithanya.bookmyshow.ui.fragment" />
       <recent name="com.chaithanya.bookmyshow.viewmodel" />
-      <recent name="com.chaithanya.bookmyshow.ui.adapter.itemclicklistener" />
-      <recent name="com.chaithanya.bookmyshow.ui.adapter" />
-      <recent name="com.chaithanya.bookmyshow.data.model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\src\main\java\com\chaithanya\bookmyshow\constant" />
@@ -506,14 +827,17 @@
       <recent name="com.chaithanya.bookmyshow.ui.activity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\src\main\res\drawable" />
+      <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\libs" />
       <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app" />
       <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\src\main\res\anim" />
-      <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\src\main\res\navigation" />
-      <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\src\main\res\layout" />
-      <recent name="C:\Users\manishkumar\Desktop\AllProjects\BookMyShow\BookMyShowClone\BookMyShow\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.-2074927185">
+      <recent name="com.chaithanya.bookmyshow.ui.activity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -579,6 +903,30 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookMyShow [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BookMyShow [signingReport]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -624,7 +972,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625336689130</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Home Fragment">
+      <created>1625680737986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625680737986</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -632,102 +987,106 @@
     <option name="LAST_COMMIT_MESSAGE" value="Home Fragment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="471" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1625641465437">
+    <state x="471" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1625853369255">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="471" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1625641465437" />
-    <state x="409" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1625481985145">
+    <state x="471" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1625853369255" />
+    <state x="409" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1625938783331">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="409" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1625481985145" />
+    <state x="409" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1360.728@0.0.1360.728" timestamp="1625938783331" />
     <state x="349" y="181" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1624531318428">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="349" y="181" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1360.728@0.0.1360.728" timestamp="1624531318428" />
-    <state x="410" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625487964275">
+    <state x="410" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625852944439">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="410" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728@0.0.1360.728" timestamp="1625487964275" />
-    <state x="453" y="131" width="536" height="466" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1625122649449">
+    <state x="410" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.728@0.0.1360.728" timestamp="1625852944439" />
+    <state x="453" y="131" width="536" height="466" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1625682321659">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="453" y="131" width="536" height="466" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1625122649449" />
-    <state x="252" y="133" width="646" height="595" key="#xdebugger.evaluate" timestamp="1625673960886">
+    <state x="453" y="131" width="536" height="466" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1625682321659" />
+    <state x="252" y="133" width="646" height="595" key="#xdebugger.evaluate" timestamp="1626074579134">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="252" y="133" width="646" height="595" key="#xdebugger.evaluate/0.0.1360.728@0.0.1360.728" timestamp="1625673960886" />
+    <state x="252" y="133" width="646" height="595" key="#xdebugger.evaluate/0.0.1360.728@0.0.1360.728" timestamp="1626074579134" />
     <state x="260" y="118" key="AndroidCreateResourceDirectoryDialog" timestamp="1625226227681">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="260" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1360.728@0.0.1360.728" timestamp="1625226227681" />
-    <state x="349" y="197" key="AndroidCreateResourceFileDialog" timestamp="1625641553076">
+    <state x="349" y="197" key="AndroidCreateResourceFileDialog" timestamp="1626080649457">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="349" y="197" key="AndroidCreateResourceFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1625641553076" />
+    <state x="349" y="197" key="AndroidCreateResourceFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1626080649457" />
     <state x="525" y="171" key="AndroidCreateXmlResourceDialog" timestamp="1624874918318">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="525" y="171" key="AndroidCreateXmlResourceDialog/0.0.1360.728@0.0.1360.728" timestamp="1624874918318" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1625336687337">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1625680731115">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1625336687337" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1625680731115" />
     <state x="128" y="54" key="DiffContextDialog" timestamp="1625680396547">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="128" y="54" key="DiffContextDialog/0.0.1360.728@0.0.1360.728" timestamp="1625680396547" />
-    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1624880266270">
+    <state x="460" y="118" key="FileChooserDialogImpl" timestamp="1625768789819">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1624880266270" />
-    <state width="1317" height="171" key="GridCell.Tab.0.bottom" timestamp="1625680411799">
+    <state x="460" y="118" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1625768789819" />
+    <state width="1317" height="432" key="GridCell.Tab.0.bottom" timestamp="1626082743085">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="171" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1625680411799" />
-    <state width="1317" height="171" key="GridCell.Tab.0.center" timestamp="1625680411799">
+    <state width="1317" height="432" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1626082743085" />
+    <state width="1317" height="432" key="GridCell.Tab.0.center" timestamp="1626082743085">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="171" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1625680411799" />
-    <state width="1317" height="171" key="GridCell.Tab.0.left" timestamp="1625680411798">
+    <state width="1317" height="432" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1626082743085" />
+    <state width="1317" height="432" key="GridCell.Tab.0.left" timestamp="1626082743084">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="171" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1625680411798" />
-    <state width="1317" height="171" key="GridCell.Tab.0.right" timestamp="1625680411799">
+    <state width="1317" height="432" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1626082743084" />
+    <state width="1317" height="432" key="GridCell.Tab.0.right" timestamp="1626082743085">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="171" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1625680411799" />
-    <state width="1317" height="137" key="GridCell.Tab.1.bottom" timestamp="1625674009073">
+    <state width="1317" height="432" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1626082743085" />
+    <state width="1317" height="203" key="GridCell.Tab.1.bottom" timestamp="1626074589153">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="137" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1625674009073" />
-    <state width="1317" height="137" key="GridCell.Tab.1.center" timestamp="1625674009073">
+    <state width="1317" height="203" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1626074589153" />
+    <state width="1317" height="203" key="GridCell.Tab.1.center" timestamp="1626074589153">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="137" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1625674009073" />
-    <state width="1317" height="137" key="GridCell.Tab.1.left" timestamp="1625674009073">
+    <state width="1317" height="203" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1626074589153" />
+    <state width="1317" height="203" key="GridCell.Tab.1.left" timestamp="1626074589153">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="137" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1625674009073" />
-    <state width="1317" height="137" key="GridCell.Tab.1.right" timestamp="1625674009073">
+    <state width="1317" height="203" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1626074589153" />
+    <state width="1317" height="203" key="GridCell.Tab.1.right" timestamp="1626074589153">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="137" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1625674009073" />
-    <state x="272" y="96" key="Vcs.Push.Dialog.v2" timestamp="1625680404706">
+    <state width="1317" height="203" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1626074589153" />
+    <state x="272" y="96" key="Vcs.Push.Dialog.v2" timestamp="1625680869069">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="272" y="96" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1625680404706" />
+    <state x="272" y="96" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1625680869069" />
     <state width="688" height="372" key="XDebugger.FullValuePopup" timestamp="1625224873865">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="688" height="372" key="XDebugger.FullValuePopup/0.0.1360.728@0.0.1360.728" timestamp="1625224873865" />
-    <state x="496" y="141" key="chooseDestDirectoryDialog" timestamp="1624988647685">
+    <state x="496" y="141" key="chooseDestDirectoryDialog" timestamp="1625768610503">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="496" y="141" key="chooseDestDirectoryDialog/0.0.1360.728@0.0.1360.728" timestamp="1624988647685" />
-    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1625642498624">
+    <state x="496" y="141" key="chooseDestDirectoryDialog/0.0.1360.728@0.0.1360.728" timestamp="1625768610503" />
+    <state x="336" y="162" key="run.anything.popup" timestamp="1626081504044">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1625642498624" />
+    <state x="336" y="162" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1626081504044" />
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626073077204">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1626073077204" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,29 +1102,9 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventsFragment.kt</url>
-          <line>107</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt</url>
-          <line>28</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/repository/EventsRepository.kt</url>
-          <line>16</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.kt</url>
-          <line>22</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/viewmodel/HomeViewModel.kt</url>
           <line>24</line>
-          <option name="timeStamp" value="81" />
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/StreamFragment.kt</url>
@@ -789,98 +1128,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt</url>
-          <line>51</line>
+          <line>55</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt</url>
-          <line>52</line>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt</url>
-          <line>53</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt</url>
-          <line>56</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragment.kt</url>
-          <line>55</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt</url>
-          <line>59</line>
+          <line>30</line>
           <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt</url>
-          <line>60</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt</url>
-          <line>56</line>
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt</url>
-          <line>67</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt</url>
-          <line>68</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt</url>
-          <line>62</line>
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/fragment/EventDetailsFragmentFromHome.kt</url>
-          <line>63</line>
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
-          <line>16</line>
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
-          <line>17</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
-          <line>19</line>
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
-          <line>23</line>
-          <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
-          <line>24</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
-          <line>26</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
-          <line>31</line>
-          <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/StreamMovieChildAdapter.kt</url>
@@ -893,14 +1147,9 @@
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/HomeEventsChildAdapter.kt</url>
-          <line>35</line>
-          <option name="timeStamp" value="117" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/HomeEventsChildAdapter.kt</url>
-          <line>36</line>
-          <option name="timeStamp" value="118" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chaithanya/bookmyshow/ui/adapter/ArtistAdapter.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

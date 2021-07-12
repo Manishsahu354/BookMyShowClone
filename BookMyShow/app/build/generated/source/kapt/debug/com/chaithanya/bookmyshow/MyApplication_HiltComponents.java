@@ -1,7 +1,9 @@
 package com.chaithanya.bookmyshow;
 
-import com.chaithanya.bookmyshow.di.AppModule;
+import com.chaithanya.bookmyshow.di.DatabaseModule;
+import com.chaithanya.bookmyshow.ui.activity.PaymentSuccessfulActivity_GeneratedInjector;
 import com.chaithanya.bookmyshow.ui.fragment.HomeFragment_GeneratedInjector;
+import com.chaithanya.bookmyshow.ui.fragment.PurchaseHistoryFragment_GeneratedInjector;
 import com.chaithanya.bookmyshow.viewmodel.HomeViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
@@ -115,8 +117,8 @@ public final class MyApplication_HiltComponents {
 
   @Component(
       modules = {
-          AppModule.class,
           ApplicationContextModule.class,
+          DatabaseModule.class,
           ActivityRetainedCBuilderModule.class,
           ServiceCBuilderModule.class
       }
@@ -166,6 +168,7 @@ public final class MyApplication_HiltComponents {
   )
   @ActivityScoped
   public abstract static class ActivityC implements MainActivity_GeneratedInjector,
+      PaymentSuccessfulActivity_GeneratedInjector,
       ActivityComponent,
       DefaultViewModelFactories.ActivityEntryPoint,
       HiltWrapper_HiltViewModelFactory_ActivityCreatorEntryPoint,
@@ -206,6 +209,7 @@ public final class MyApplication_HiltComponents {
   )
   @FragmentScoped
   public abstract static class FragmentC implements HomeFragment_GeneratedInjector,
+      PurchaseHistoryFragment_GeneratedInjector,
       FragmentComponent,
       DefaultViewModelFactories.FragmentEntryPoint,
       ViewComponentManager.ViewWithFragmentComponentBuilderEntryPoint,

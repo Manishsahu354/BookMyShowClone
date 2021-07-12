@@ -7,10 +7,15 @@ import android.view.View;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
-import com.chaithanya.bookmyshow.di.AppModule;
-import com.chaithanya.bookmyshow.di.AppModule_ProvideEventsRepositoryFactory;
+import com.chaithanya.bookmyshow.data.local.BookMyShowDatabase;
+import com.chaithanya.bookmyshow.data.local.BookedEventDAO;
+import com.chaithanya.bookmyshow.di.DatabaseModule;
+import com.chaithanya.bookmyshow.di.DatabaseModule_ProvideDaoFactory;
+import com.chaithanya.bookmyshow.di.DatabaseModule_ProvideDatabaseFactory;
 import com.chaithanya.bookmyshow.repository.EventsRepository;
+import com.chaithanya.bookmyshow.ui.activity.PaymentSuccessfulActivity;
 import com.chaithanya.bookmyshow.ui.fragment.HomeFragment;
+import com.chaithanya.bookmyshow.ui.fragment.PurchaseHistoryFragment;
 import com.chaithanya.bookmyshow.viewmodel.HomeViewModel;
 import com.chaithanya.bookmyshow.viewmodel.HomeViewModel_HiltModules_KeyModule_ProvideFactory;
 import dagger.hilt.android.ActivityRetainedLifecycle;
@@ -26,6 +31,7 @@ import dagger.hilt.android.internal.lifecycle.DefaultViewModelFactories_Internal
 import dagger.hilt.android.internal.managers.ActivityRetainedComponentManager_Lifecycle_Factory;
 import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideApplicationFactory;
+import dagger.hilt.android.internal.modules.ApplicationContextModule_ProvideContextFactory;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
 import dagger.internal.MemoizedSentinel;
@@ -43,7 +49,9 @@ import javax.inject.Provider;
 public final class DaggerMyApplication_HiltComponents_SingletonC extends MyApplication_HiltComponents.SingletonC {
   private final ApplicationContextModule applicationContextModule;
 
-  private volatile Object eventsRepository = new MemoizedSentinel();
+  private volatile Object bookMyShowDatabase = new MemoizedSentinel();
+
+  private volatile Object bookedEventDAO = new MemoizedSentinel();
 
   private DaggerMyApplication_HiltComponents_SingletonC(
       ApplicationContextModule applicationContextModuleParam) {
@@ -54,18 +62,32 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
     return new Builder();
   }
 
-  private EventsRepository eventsRepository() {
-    Object local = eventsRepository;
+  private BookMyShowDatabase bookMyShowDatabase() {
+    Object local = bookMyShowDatabase;
     if (local instanceof MemoizedSentinel) {
       synchronized (local) {
-        local = eventsRepository;
+        local = bookMyShowDatabase;
         if (local instanceof MemoizedSentinel) {
-          local = AppModule_ProvideEventsRepositoryFactory.provideEventsRepository();
-          eventsRepository = DoubleCheck.reentrantCheck(eventsRepository, local);
+          local = DatabaseModule_ProvideDatabaseFactory.provideDatabase(ApplicationContextModule_ProvideContextFactory.provideContext(applicationContextModule));
+          bookMyShowDatabase = DoubleCheck.reentrantCheck(bookMyShowDatabase, local);
         }
       }
     }
-    return (EventsRepository) local;
+    return (BookMyShowDatabase) local;
+  }
+
+  private BookedEventDAO bookedEventDAO() {
+    Object local = bookedEventDAO;
+    if (local instanceof MemoizedSentinel) {
+      synchronized (local) {
+        local = bookedEventDAO;
+        if (local instanceof MemoizedSentinel) {
+          local = DatabaseModule_ProvideDaoFactory.provideDao(bookMyShowDatabase());
+          bookedEventDAO = DoubleCheck.reentrantCheck(bookedEventDAO, local);
+        }
+      }
+    }
+    return (BookedEventDAO) local;
   }
 
   @Override
@@ -88,17 +110,17 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
     private Builder() {
     }
 
+    public Builder applicationContextModule(ApplicationContextModule applicationContextModule) {
+      this.applicationContextModule = Preconditions.checkNotNull(applicationContextModule);
+      return this;
+    }
+
     /**
      * @deprecated This module is declared, but an instance is not used in the component. This method is a no-op. For more, see https://dagger.dev/unused-modules.
      */
     @Deprecated
-    public Builder appModule(AppModule appModule) {
-      Preconditions.checkNotNull(appModule);
-      return this;
-    }
-
-    public Builder applicationContextModule(ApplicationContextModule applicationContextModule) {
-      this.applicationContextModule = Preconditions.checkNotNull(applicationContextModule);
+    public Builder databaseModule(DatabaseModule databaseModule) {
+      Preconditions.checkNotNull(databaseModule);
       return this;
     }
 
@@ -118,6 +140,8 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
   private final class ActivityRetainedCImpl extends MyApplication_HiltComponents.ActivityRetainedC {
     private volatile Object lifecycle = new MemoizedSentinel();
 
+    private volatile Object eventsRepository = new MemoizedSentinel();
+
     private ActivityRetainedCImpl() {
 
     }
@@ -134,6 +158,20 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
         }
       }
       return (Object) local;
+    }
+
+    private EventsRepository eventsRepository() {
+      Object local = eventsRepository;
+      if (local instanceof MemoizedSentinel) {
+        synchronized (local) {
+          local = eventsRepository;
+          if (local instanceof MemoizedSentinel) {
+            local = new EventsRepository(DaggerMyApplication_HiltComponents_SingletonC.this.bookedEventDAO());
+            eventsRepository = DoubleCheck.reentrantCheck(eventsRepository, local);
+          }
+        }
+      }
+      return (EventsRepository) local;
     }
 
     @Override
@@ -169,6 +207,11 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
 
       @Override
       public void injectMainActivity(MainActivity mainActivity) {
+      }
+
+      @Override
+      public void injectPaymentSuccessfulActivity(
+          PaymentSuccessfulActivity paymentSuccessfulActivity) {
       }
 
       @Override
@@ -219,6 +262,10 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
 
         @Override
         public void injectHomeFragment(HomeFragment homeFragment) {
+        }
+
+        @Override
+        public void injectPurchaseHistoryFragment(PurchaseHistoryFragment purchaseHistoryFragment) {
         }
 
         @Override
@@ -301,7 +348,7 @@ public final class DaggerMyApplication_HiltComponents_SingletonC extends MyAppli
       }
 
       private HomeViewModel homeViewModel() {
-        return new HomeViewModel(DaggerMyApplication_HiltComponents_SingletonC.this.eventsRepository());
+        return new HomeViewModel(ActivityRetainedCImpl.this.eventsRepository());
       }
 
       private Provider<HomeViewModel> homeViewModelProvider() {

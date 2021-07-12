@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.chaithanya.bookmyshow.R;
 import java.lang.NullPointerException;
@@ -49,13 +50,25 @@ public final class FragmentStreamMovieBinding implements ViewBinding {
   public final TextView marginDesc;
 
   @NonNull
+  public final RecyclerView recyclerviewCast;
+
+  @NonNull
+  public final RecyclerView recyclerviewCrew;
+
+  @NonNull
   public final TextView tvAbout;
 
   @NonNull
   public final TextView tvAge;
 
   @NonNull
+  public final TextView tvCast;
+
+  @NonNull
   public final TextView tvCategory;
+
+  @NonNull
+  public final TextView tvCrew;
 
   @NonNull
   public final TextView tvDate;
@@ -79,8 +92,10 @@ public final class FragmentStreamMovieBinding implements ViewBinding {
       @NonNull TextView bgDescription, @NonNull TextView bgStreamHeader, @NonNull Button buttonPay,
       @NonNull TextView headerMovieTitle, @NonNull ImageView imageBack,
       @NonNull ImageView imageMovie, @NonNull ImageView imageShare,
-      @NonNull LinearLayout llPlayTrailer, @NonNull TextView marginDesc, @NonNull TextView tvAbout,
-      @NonNull TextView tvAge, @NonNull TextView tvCategory, @NonNull TextView tvDate,
+      @NonNull LinearLayout llPlayTrailer, @NonNull TextView marginDesc,
+      @NonNull RecyclerView recyclerviewCast, @NonNull RecyclerView recyclerviewCrew,
+      @NonNull TextView tvAbout, @NonNull TextView tvAge, @NonNull TextView tvCast,
+      @NonNull TextView tvCategory, @NonNull TextView tvCrew, @NonNull TextView tvDate,
       @NonNull TextView tvDotOne, @NonNull TextView tvDotThree, @NonNull TextView tvDotTwo,
       @NonNull TextView tvLanguage, @NonNull TextView tvTime) {
     this.rootView = rootView;
@@ -93,9 +108,13 @@ public final class FragmentStreamMovieBinding implements ViewBinding {
     this.imageShare = imageShare;
     this.llPlayTrailer = llPlayTrailer;
     this.marginDesc = marginDesc;
+    this.recyclerviewCast = recyclerviewCast;
+    this.recyclerviewCrew = recyclerviewCrew;
     this.tvAbout = tvAbout;
     this.tvAge = tvAge;
+    this.tvCast = tvCast;
     this.tvCategory = tvCategory;
+    this.tvCrew = tvCrew;
     this.tvDate = tvDate;
     this.tvDotOne = tvDotOne;
     this.tvDotThree = tvDotThree;
@@ -185,6 +204,18 @@ public final class FragmentStreamMovieBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.recyclerviewCast;
+      RecyclerView recyclerviewCast = rootView.findViewById(id);
+      if (recyclerviewCast == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerviewCrew;
+      RecyclerView recyclerviewCrew = rootView.findViewById(id);
+      if (recyclerviewCrew == null) {
+        break missingId;
+      }
+
       id = R.id.tvAbout;
       TextView tvAbout = rootView.findViewById(id);
       if (tvAbout == null) {
@@ -197,9 +228,21 @@ public final class FragmentStreamMovieBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvCast;
+      TextView tvCast = rootView.findViewById(id);
+      if (tvCast == null) {
+        break missingId;
+      }
+
       id = R.id.tvCategory;
       TextView tvCategory = rootView.findViewById(id);
       if (tvCategory == null) {
+        break missingId;
+      }
+
+      id = R.id.tvCrew;
+      TextView tvCrew = rootView.findViewById(id);
+      if (tvCrew == null) {
         break missingId;
       }
 
@@ -241,8 +284,8 @@ public final class FragmentStreamMovieBinding implements ViewBinding {
 
       return new FragmentStreamMovieBinding((ConstraintLayout) rootView, bgDescription,
           bgStreamHeader, buttonPay, headerMovieTitle, imageBack, imageMovie, imageShare,
-          llPlayTrailer, marginDesc, tvAbout, tvAge, tvCategory, tvDate, tvDotOne, tvDotThree,
-          tvDotTwo, tvLanguage, tvTime);
+          llPlayTrailer, marginDesc, recyclerviewCast, recyclerviewCrew, tvAbout, tvAge, tvCast,
+          tvCategory, tvCrew, tvDate, tvDotOne, tvDotThree, tvDotTwo, tvLanguage, tvTime);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

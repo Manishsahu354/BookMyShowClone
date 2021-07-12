@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.PopupMenu
+import androidx.navigation.fragment.findNavController
+import com.chaithanya.bookmyshow.R
 import com.chaithanya.bookmyshow.databinding.FragmentProfileBinding
 
 
@@ -20,6 +22,10 @@ class ProfileFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
+
+        binding.cardPurchase.setOnClickListener {
+            findNavController().navigate(R.id.purchaseHistoryFragment)
+        }
 
         return binding.root
     }

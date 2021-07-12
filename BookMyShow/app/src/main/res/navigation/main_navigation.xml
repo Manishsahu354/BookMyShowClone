@@ -11,14 +11,14 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_homeFragment_to_streamActivity"
-            app:destination="@id/streamActivity" />
+            android:id="@+id/action_homeFragment_to_streamFragment"
+            app:destination="@id/streamFragment" />
         <action
-            android:id="@+id/action_homeFragment_to_eventsActivity"
-            app:destination="@id/eventsActivity" />
+            android:id="@+id/action_homeFragment_to_eventDetailsFragment2"
+            app:destination="@id/eventDetailsFragment2" />
         <action
-            android:id="@+id/action_homeFragment_to_eventDetailsFragmentFromHome"
-            app:destination="@id/eventDetailsFragmentFromHome" />
+            android:id="@+id/action_homeFragment_to_eventsFragment2"
+            app:destination="@id/eventsFragment2" />
     </fragment>
     <fragment
         android:id="@+id/buzzFragment"
@@ -33,31 +33,25 @@
         android:id="@+id/profileFragment"
         android:name="com.chaithanya.bookmyshow.ui.fragment.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
-    <activity
-        android:id="@+id/streamActivity"
-        android:name="com.chaithanya.bookmyshow.ui.activity.StreamActivity"
-        android:label="activity_stream"
-        tools:layout="@layout/activity_stream" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_purchaseHistoryFragment"
+            app:destination="@id/purchaseHistoryFragment" />
+    </fragment>
     <fragment
         android:id="@+id/streamFragment"
         android:name="com.chaithanya.bookmyshow.ui.fragment.StreamFragment"
         android:label="fragment_stream"
-        tools:layout="@layout/fragment_stream" />
+        tools:layout="@layout/fragment_stream" >
+        <action
+            android:id="@+id/action_streamFragment_to_streamMovieFragment2"
+            app:destination="@id/streamMovieFragment2" />
+    </fragment>
     <activity
         android:id="@+id/eventsActivity"
         android:name="com.chaithanya.bookmyshow.ui.activity.EventsActivity"
         android:label="activity_events"
         tools:layout="@layout/activity_events" />
-    <fragment
-        android:id="@+id/eventDetailsFragmentFromHome"
-        android:name="com.chaithanya.bookmyshow.ui.fragment.EventDetailsFragmentFromHome"
-        android:label="EventDetailsFragmentFromHome"
-        tools:layout="@layout/fragment_event_details">
-        <argument
-            android:name="events"
-            app:argType="com.chaithanya.bookmyshow.data.model.HomeEventsChildModel" />
-    </fragment>
     <fragment
         android:id="@+id/buzzDetailsFragment"
         android:name="com.chaithanya.bookmyshow.ui.fragment.BuzzDetailsFragment"
@@ -67,6 +61,60 @@
             android:name="buzzWebUrl"
             app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/streamMovieFragment2"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.StreamMovieFragment"
+        android:label="fragment_stream_movie"
+        tools:layout="@layout/fragment_stream_movie" >
+        <argument
+            android:name="stream"
+            app:argType="com.chaithanya.bookmyshow.data.model.HomeStreamModel" />
+        <action
+            android:id="@+id/action_streamMovieFragment2_to_youtubePlayerActivity2"
+            app:destination="@id/youtubePlayerActivity2" />
+    </fragment>
+    <activity
+        android:id="@+id/youtubePlayerActivity2"
+        android:name="com.chaithanya.bookmyshow.ui.activity.YoutubePlayerActivity"
+        android:label="activity_youtube_player"
+        tools:layout="@layout/activity_youtube_player" >
+        <argument android:name="youtubelink" />
+    </activity>
+    <fragment
+        android:id="@+id/eventDetailsFragment2"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.EventDetailsFragment"
+        android:label="fragment_event_details"
+        tools:layout="@layout/fragment_event_details" >
+        <argument
+            android:name="eventModel"
+            app:argType="com.chaithanya.bookmyshow.data.model.HomeEventsChildModel" />
+        <action
+            android:id="@+id/action_eventDetailsFragment2_to_paymentEventActivity2"
+            app:destination="@id/paymentEventActivity2" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventsFragment2"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.EventsFragment"
+        android:label="fragment_events"
+        tools:layout="@layout/fragment_events" >
+        <action
+            android:id="@+id/action_eventsFragment2_to_eventDetailsFragment2"
+            app:destination="@id/eventDetailsFragment2" />
+    </fragment>
+    <activity
+        android:id="@+id/paymentEventActivity2"
+        android:name="com.chaithanya.bookmyshow.ui.activity.PaymentEventActivity"
+        android:label="activity_payment_event"
+        tools:layout="@layout/activity_payment_event" >
+        <argument
+            android:name="events"
+            app:argType="com.chaithanya.bookmyshow.data.model.HomeEventsChildModel" />
+    </activity>
+    <fragment
+        android:id="@+id/purchaseHistoryFragment"
+        android:name="com.chaithanya.bookmyshow.ui.fragment.PurchaseHistoryFragment"
+        android:label="fragment_purchase_history"
+        tools:layout="@layout/fragment_purchase_history" />
 
 
 </navigation>

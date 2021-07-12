@@ -2,7 +2,7 @@ package com.chaithanya.bookmyshow.ui.fragment;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0004\u0018\u0000 \u00042\u00020\u0001:\u0002\u0003\u0004B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002\u00a8\u0006\u0005"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections;", "", "()V", "ActionStreamFragment2ToStreamMovieFragment", "Companion", "app_debug"})
+@kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0004\u0018\u0000 \u00042\u00020\u0001:\u0002\u0003\u0004B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002\u00a8\u0006\u0005"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections;", "", "()V", "ActionStreamFragmentToStreamMovieFragment2", "Companion", "app_debug"})
 public final class StreamFragmentDirections {
     @org.jetbrains.annotations.NotNull()
     public static final com.chaithanya.bookmyshow.ui.fragment.StreamFragmentDirections.Companion Companion = null;
@@ -11,13 +11,13 @@ public final class StreamFragmentDirections {
         super();
     }
     
-    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\b\u0082\b\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\t\u0010\u0007\u001a\u00020\u0003H\u00c6\u0003J\u0013\u0010\b\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\t\u001a\u00020\n2\b\u0010\u000b\u001a\u0004\u0018\u00010\fH\u00d6\u0003J\b\u0010\r\u001a\u00020\u000eH\u0016J\b\u0010\u000f\u001a\u00020\u0010H\u0016J\t\u0010\u0011\u001a\u00020\u000eH\u00d6\u0001J\t\u0010\u0012\u001a\u00020\u0013H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u00a8\u0006\u0014"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragment2ToStreamMovieFragment;", "Landroidx/navigation/NavDirections;", "stream", "Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;", "(Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;)V", "getStream", "()Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;", "component1", "copy", "equals", "", "other", "", "getActionId", "", "getArguments", "Landroid/os/Bundle;", "hashCode", "toString", "", "app_debug"})
-    static final class ActionStreamFragment2ToStreamMovieFragment implements androidx.navigation.NavDirections {
+    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\b\u0082\b\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\t\u0010\u0007\u001a\u00020\u0003H\u00c6\u0003J\u0013\u0010\b\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010\t\u001a\u00020\n2\b\u0010\u000b\u001a\u0004\u0018\u00010\fH\u00d6\u0003J\b\u0010\r\u001a\u00020\u000eH\u0016J\b\u0010\u000f\u001a\u00020\u0010H\u0016J\t\u0010\u0011\u001a\u00020\u000eH\u00d6\u0001J\t\u0010\u0012\u001a\u00020\u0013H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u00a8\u0006\u0014"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$ActionStreamFragmentToStreamMovieFragment2;", "Landroidx/navigation/NavDirections;", "stream", "Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;", "(Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;)V", "getStream", "()Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;", "component1", "copy", "equals", "", "other", "", "getActionId", "", "getArguments", "Landroid/os/Bundle;", "hashCode", "toString", "", "app_debug"})
+    static final class ActionStreamFragmentToStreamMovieFragment2 implements androidx.navigation.NavDirections {
         @org.jetbrains.annotations.NotNull()
         private final com.chaithanya.bookmyshow.data.model.HomeStreamModel stream = null;
         
         @org.jetbrains.annotations.NotNull()
-        public final com.chaithanya.bookmyshow.ui.fragment.StreamFragmentDirections.ActionStreamFragment2ToStreamMovieFragment copy(@org.jetbrains.annotations.NotNull()
+        public final com.chaithanya.bookmyshow.ui.fragment.StreamFragmentDirections.ActionStreamFragmentToStreamMovieFragment2 copy(@org.jetbrains.annotations.NotNull()
         com.chaithanya.bookmyshow.data.model.HomeStreamModel stream) {
             return null;
         }
@@ -39,7 +39,7 @@ public final class StreamFragmentDirections {
             return null;
         }
         
-        public ActionStreamFragment2ToStreamMovieFragment(@org.jetbrains.annotations.NotNull()
+        public ActionStreamFragmentToStreamMovieFragment2(@org.jetbrains.annotations.NotNull()
         com.chaithanya.bookmyshow.data.model.HomeStreamModel stream) {
             super();
         }
@@ -67,7 +67,7 @@ public final class StreamFragmentDirections {
         }
     }
     
-    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J\u000e\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u0006\u00a8\u0006\u0007"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion;", "", "()V", "actionStreamFragment2ToStreamMovieFragment", "Landroidx/navigation/NavDirections;", "stream", "Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;", "app_debug"})
+    @kotlin.Metadata(mv = {1, 5, 1}, k = 1, d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J\u000e\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u0006\u00a8\u0006\u0007"}, d2 = {"Lcom/chaithanya/bookmyshow/ui/fragment/StreamFragmentDirections$Companion;", "", "()V", "actionStreamFragmentToStreamMovieFragment2", "Landroidx/navigation/NavDirections;", "stream", "Lcom/chaithanya/bookmyshow/data/model/HomeStreamModel;", "app_debug"})
     public static final class Companion {
         
         private Companion() {
@@ -75,7 +75,7 @@ public final class StreamFragmentDirections {
         }
         
         @org.jetbrains.annotations.NotNull()
-        public final androidx.navigation.NavDirections actionStreamFragment2ToStreamMovieFragment(@org.jetbrains.annotations.NotNull()
+        public final androidx.navigation.NavDirections actionStreamFragmentToStreamMovieFragment2(@org.jetbrains.annotations.NotNull()
         com.chaithanya.bookmyshow.data.model.HomeStreamModel stream) {
             return null;
         }

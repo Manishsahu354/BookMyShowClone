@@ -28,6 +28,11 @@ class EventsAdapter(var homeEventsChildModelList:MutableList<HomeEventsChildMode
             Glide.with(imageEvents).load(homeEventsChildModelList[position].imageUrl).into(imageEvents)
             tvEventsTitle.text = homeEventsChildModelList[position].title
             tvEventsCategory.text = homeEventsChildModelList[position].categoryName
+
+            if (homeEventsChildModelList[position].free == "false"){
+                tvEventsPrice.text = homeEventsChildModelList[position].price
+            }
+
             EventsConstraint.setOnClickListener {
                 listener.onEventsItemClicked(homeEventsChildModelList[position])
             }

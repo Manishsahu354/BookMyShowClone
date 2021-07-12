@@ -233,6 +233,65 @@
               app:layout_constraintStart_toStartOf="parent"
               app:layout_constraintTop_toBottomOf="@id/tvAbout"
               />
+
+          <TextView
+              android:id="@+id/tvCast"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Cast"
+              android:textStyle="bold"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/marginDesc"
+              android:layout_marginStart="@dimen/dp_15"
+              android:layout_marginTop="@dimen/dp_25"
+              android:textColor="@color/black"
+              android:textSize="@dimen/sp_16"/>
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/recyclerviewCast"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:clipToPadding="false"
+              android:paddingStart="@dimen/dp_15"
+              android:paddingEnd="@dimen/dp_15"
+              android:layout_marginTop="@dimen/dp_10"
+              app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+              android:orientation="horizontal"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/tvCast" />
+
+          <TextView
+              android:id="@+id/tvCrew"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Crew"
+              android:textStyle="bold"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@+id/recyclerviewCast"
+              android:layout_marginStart="@dimen/dp_15"
+              android:layout_marginTop="@dimen/dp_25"
+              android:textColor="@color/black"
+              android:textSize="@dimen/sp_16"/>
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/recyclerviewCrew"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:clipToPadding="false"
+              android:paddingStart="@dimen/dp_15"
+              android:paddingEnd="@dimen/dp_15"
+              android:layout_marginTop="@dimen/dp_10"
+              app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+              android:orientation="horizontal"
+              android:paddingBottom="@dimen/_30sdp"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toBottomOf="@id/tvCrew" />
+
+
+
+
       </androidx.constraintlayout.widget.ConstraintLayout>
 
 

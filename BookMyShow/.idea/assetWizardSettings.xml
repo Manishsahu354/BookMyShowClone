@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/online_prediction/baseline_online_prediction_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialiconsoutlined/settings/outline_settings_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,8 +28,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_online_streaming" />
-                            <entry key="sourceFile" value="C:\Users\manishkumar\Downloads\pngegg.svg" />
+                            <entry key="outputName" value="ic_outline_settings_24" />
+                            <entry key="sourceFile" value="C:\Users\manishkumar\Downloads\ic_plus.svg" />
                           </map>
                         </option>
                       </PersistentState>

@@ -7,11 +7,11 @@ import kotlin.Int
 import kotlin.String
 
 public class StreamMovieFragmentDirections private constructor() {
-  private data class ActionStreamMovieFragmentToYoutubePlayerActivity(
+  private data class ActionStreamMovieFragment2ToYoutubePlayerActivity2(
     public val youtubelink: String
   ) : NavDirections {
     public override fun getActionId(): Int =
-        R.id.action_streamMovieFragment_to_youtubePlayerActivity
+        R.id.action_streamMovieFragment2_to_youtubePlayerActivity2
 
     public override fun getArguments(): Bundle {
       val result = Bundle()
@@ -21,7 +21,7 @@ public class StreamMovieFragmentDirections private constructor() {
   }
 
   public companion object {
-    public fun actionStreamMovieFragmentToYoutubePlayerActivity(youtubelink: String): NavDirections
-        = ActionStreamMovieFragmentToYoutubePlayerActivity(youtubelink)
+    public fun actionStreamMovieFragment2ToYoutubePlayerActivity2(youtubelink: String):
+        NavDirections = ActionStreamMovieFragment2ToYoutubePlayerActivity2(youtubelink)
   }
 }

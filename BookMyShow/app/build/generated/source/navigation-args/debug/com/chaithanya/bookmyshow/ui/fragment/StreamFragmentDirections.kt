@@ -11,10 +11,10 @@ import kotlin.Int
 import kotlin.Suppress
 
 public class StreamFragmentDirections private constructor() {
-  private data class ActionStreamFragment2ToStreamMovieFragment(
+  private data class ActionStreamFragmentToStreamMovieFragment2(
     public val stream: HomeStreamModel
   ) : NavDirections {
-    public override fun getActionId(): Int = R.id.action_streamFragment2_to_streamMovieFragment
+    public override fun getActionId(): Int = R.id.action_streamFragment_to_streamMovieFragment2
 
     @Suppress("CAST_NEVER_SUCCEEDS")
     public override fun getArguments(): Bundle {
@@ -32,7 +32,7 @@ public class StreamFragmentDirections private constructor() {
   }
 
   public companion object {
-    public fun actionStreamFragment2ToStreamMovieFragment(stream: HomeStreamModel): NavDirections =
-        ActionStreamFragment2ToStreamMovieFragment(stream)
+    public fun actionStreamFragmentToStreamMovieFragment2(stream: HomeStreamModel): NavDirections =
+        ActionStreamFragmentToStreamMovieFragment2(stream)
   }
 }
